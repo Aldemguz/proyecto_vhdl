@@ -1,0 +1,6 @@
+CommandLine
+C:\Xilinx\10.1\ISE\bin\nt\unwrapped\xst.exe -ise D:/Users/aldemaro/Documents/proyecto_tesis/neuronas/neuronas.ise -intstyle ise -ifn D:/Users/aldemaro/Documents/proyecto_tesis/neuronas/neurona.xst -ofn D:/Users/aldemaro/Documents/proyecto_tesis/neuronas/neurona.syr -finalclean 1
+s
+FormatString
+xst [-ifn <InputFile>] [-ofn <OutputFile>] [-ise <iseProjectFile>] [--quiet] [-intstyle <Style>] [--deb <DebugLevel>] [--finalclean <Clean>] [--PcubeFlow] [--globOptFlow] [--XstNtrc]
+s

@@ -1,0 +1,6 @@
+CommandLine
+C:\Xilinx\10.1\ISE\bin\nt\unwrapped\xst.exe -ise D:/Users/aldemaro/Documents/proyecto_tesis/mux2_2bits/mux2_2bits.ise -intstyle ise -ifn D:/Users/aldemaro/Documents/proyecto_tesis/mux2_2bits/mux2_2bits.xst -ofn D:/Users/aldemaro/Documents/proyecto_tesis/mux2_2bits/mux2_2bits.syr -finalclean 1
+s
+FormatString
+xst [-ifn <InputFile>] [-ofn <OutputFile>] [-ise <iseProjectFile>] [--quiet] [-intstyle <Style>] [--deb <DebugLevel>] [--finalclean <Clean>] [--PcubeFlow] [--globOptFlow] [--XstNtrc]
+s

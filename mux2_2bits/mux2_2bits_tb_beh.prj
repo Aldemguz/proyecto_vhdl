@@ -1,0 +1,2 @@
+vhdl work "mux2_2bits.vhd"
+vhdl work "mux2_2bits_tb.vhd"

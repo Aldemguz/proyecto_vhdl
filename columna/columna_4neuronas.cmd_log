@@ -1,0 +1,2 @@
+xst -ise "D:/Users/aldemaro/Documents/proyecto_tesis/columna/columna.ise" -intstyle ise -ifn "D:/Users/aldemaro/Documents/proyecto_tesis/columna/columna_4neuronas.xst" -ofn "D:/Users/aldemaro/Documents/proyecto_tesis/columna/columna_4neuronas.syr"
+xst -ise "D:/Users/aldemaro/Documents/proyecto_tesis/columna/columna.ise" -intstyle ise -ifn "D:/Users/aldemaro/Documents/proyecto_tesis/columna/columna_4neuronas.xst" -ofn "D:/Users/aldemaro/Documents/proyecto_tesis/columna/columna_4neuronas.syr"

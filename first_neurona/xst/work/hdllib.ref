@@ -1,0 +1,14 @@
+EN first_neurona NULL D:/Users/aldemaro/Documents/proyecto_tesis/first_neurona/first_neurona.vhd sub00/vhpl10 1537651249
+AR bloque1 structural D:/Users/aldemaro/Documents/proyecto_tesis/first_neurona/bloque1.vhd sub00/vhpl03 1537651240
+EN flipflopd NULL D:/Users/aldemaro/Documents/proyecto_tesis/first_neurona/flipflopD.vhd sub00/vhpl00 1537651237
+AR first_neurona behavioral D:/Users/aldemaro/Documents/proyecto_tesis/first_neurona/first_neurona.vhd sub00/vhpl11 1537651250
+AR registro_16bits_se behavioral D:/Users/aldemaro/Documents/proyecto_tesis/first_neurona/registro_16bits_SE.vhd sub00/vhpl13 1537651244
+EN half_neurona NULL D:/Users/aldemaro/Documents/proyecto_tesis/first_neurona/half_neurona.vhd sub00/vhpl06 1537651245
+EN bloque1 NULL D:/Users/aldemaro/Documents/proyecto_tesis/first_neurona/bloque1.vhd sub00/vhpl02 1537651239
+EN bloque2 NULL D:/Users/aldemaro/Documents/proyecto_tesis/first_neurona/bloque2.vhd sub00/vhpl04 1537651241
+EN registro_16bits_se NULL D:/Users/aldemaro/Documents/proyecto_tesis/first_neurona/registro_16bits_SE.vhd sub00/vhpl12 1537651243
+EN registro_16bits NULL D:/Users/aldemaro/Documents/proyecto_tesis/first_neurona/registro_16bits.vhd sub00/vhpl08 1537651247
+AR bloque2 dataflow D:/Users/aldemaro/Documents/proyecto_tesis/first_neurona/bloque2.vhd sub00/vhpl05 1537651242
+AR half_neurona behavioral D:/Users/aldemaro/Documents/proyecto_tesis/first_neurona/half_neurona.vhd sub00/vhpl07 1537651246
+AR flipflopd behavioral D:/Users/aldemaro/Documents/proyecto_tesis/first_neurona/flipflopD.vhd sub00/vhpl01 1537651238
+AR registro_16bits behavioral D:/Users/aldemaro/Documents/proyecto_tesis/first_neurona/registro_16bits.vhd sub00/vhpl09 1537651248

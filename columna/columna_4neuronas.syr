@@ -1,0 +1,576 @@
+Release 10.1 - xst K.31 (nt)
+Copyright (c) 1995-2008 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to D:/Users/aldemaro/Documents/proyecto_tesis/columna/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.22 secs
+ 
+--> Parameter xsthdpdir set to D:/Users/aldemaro/Documents/proyecto_tesis/columna/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.22 secs
+ 
+--> Reading design: columna_4neuronas.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+     9.1) Device utilization summary
+     9.2) Partition Resource Summary
+     9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "columna_4neuronas.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "columna_4neuronas"
+Output Format                      : NGC
+Target Device                      : xc3s100e-5-cp132
+
+---- Source Options
+Top Module Name                    : columna_4neuronas
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : lut
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : YES
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : YES
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Library Search Order               : columna_4neuronas.lso
+Keep Hierarchy                     : NO
+Netlist Hierarchy                  : as_optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "D:/Users/aldemaro/Documents/proyecto_tesis/columna/flipflopD_CE.vhd" in Library work.
+Architecture behavioral of Entity flipflopd_ce is up to date.
+Compiling vhdl file "D:/Users/aldemaro/Documents/proyecto_tesis/columna/flipflopD.vhd" in Library work.
+Architecture behavioral of Entity flipflopd is up to date.
+Compiling vhdl file "D:/Users/aldemaro/Documents/proyecto_tesis/columna/bloque1.vhd" in Library work.
+Architecture structural of Entity bloque1 is up to date.
+Compiling vhdl file "D:/Users/aldemaro/Documents/proyecto_tesis/columna/bloque2_2.vhd" in Library work.
+Architecture dataflow of Entity bloque2_2 is up to date.
+Compiling vhdl file "D:/Users/aldemaro/Documents/proyecto_tesis/columna/sticky.vhd" in Library work.
+Architecture behavioral of Entity sticky is up to date.
+Compiling vhdl file "D:/Users/aldemaro/Documents/proyecto_tesis/columna/mux2_2bits.vhd" in Library work.
+Architecture behavioral of Entity mux2_2bits is up to date.
+Compiling vhdl file "D:/Users/aldemaro/Documents/proyecto_tesis/columna/half_neuronas2.vhd" in Library work.
+Architecture behavioral of Entity half_neuronas2 is up to date.
+Compiling vhdl file "D:/Users/aldemaro/Documents/proyecto_tesis/columna/registro_16bits.vhd" in Library work.
+Architecture behavioral of Entity registro_16bits is up to date.
+Compiling vhdl file "D:/Users/aldemaro/Documents/proyecto_tesis/columna/neurona.vhd" in Library work.
+Architecture behavioral of Entity neurona is up to date.
+Compiling vhdl file "D:/Users/aldemaro/Documents/proyecto_tesis/columna/columna_4neuronas.vhd" in Library work.
+Entity <columna_4neuronas> compiled.
+Entity <columna_4neuronas> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <columna_4neuronas> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <neurona> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <mux2_2bits> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <flipflopD> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <half_neuronas2> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <registro_16bits> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <bloque1> in library <work> (architecture <structural>).
+
+Analyzing hierarchy for entity <bloque2_2> in library <work> (architecture <dataflow>).
+
+Analyzing hierarchy for entity <sticky> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <flipflopD> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <flipflopD_CE> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <columna_4neuronas> in library <work> (Architecture <behavioral>).
+Entity <columna_4neuronas> analyzed. Unit <columna_4neuronas> generated.
+
+Analyzing Entity <neurona> in library <work> (Architecture <behavioral>).
+Entity <neurona> analyzed. Unit <neurona> generated.
+
+Analyzing Entity <mux2_2bits> in library <work> (Architecture <behavioral>).
+Entity <mux2_2bits> analyzed. Unit <mux2_2bits> generated.
+
+Analyzing Entity <flipflopD> in library <work> (Architecture <behavioral>).
+Entity <flipflopD> analyzed. Unit <flipflopD> generated.
+
+Analyzing Entity <half_neuronas2> in library <work> (Architecture <behavioral>).
+Entity <half_neuronas2> analyzed. Unit <half_neuronas2> generated.
+
+Analyzing Entity <bloque1> in library <work> (Architecture <structural>).
+Entity <bloque1> analyzed. Unit <bloque1> generated.
+
+Analyzing Entity <bloque2_2> in library <work> (Architecture <dataflow>).
+Entity <bloque2_2> analyzed. Unit <bloque2_2> generated.
+
+Analyzing Entity <sticky> in library <work> (Architecture <behavioral>).
+Entity <sticky> analyzed. Unit <sticky> generated.
+
+Analyzing Entity <flipflopD_CE> in library <work> (Architecture <behavioral>).
+Entity <flipflopD_CE> analyzed. Unit <flipflopD_CE> generated.
+
+Analyzing Entity <registro_16bits> in library <work> (Architecture <behavioral>).
+Entity <registro_16bits> analyzed. Unit <registro_16bits> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <mux2_2bits>.
+    Related source file is "D:/Users/aldemaro/Documents/proyecto_tesis/columna/mux2_2bits.vhd".
+Unit <mux2_2bits> synthesized.
+
+
+Synthesizing Unit <flipflopD>.
+    Related source file is "D:/Users/aldemaro/Documents/proyecto_tesis/columna/flipflopD.vhd".
+    Found 1-bit register for signal <temp>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <flipflopD> synthesized.
+
+
+Synthesizing Unit <registro_16bits>.
+    Related source file is "D:/Users/aldemaro/Documents/proyecto_tesis/columna/registro_16bits.vhd".
+    Found 16-bit register for signal <z_out>.
+    Summary:
+	inferred  16 D-type flip-flop(s).
+Unit <registro_16bits> synthesized.
+
+
+Synthesizing Unit <bloque2_2>.
+    Related source file is "D:/Users/aldemaro/Documents/proyecto_tesis/columna/bloque2_2.vhd".
+Unit <bloque2_2> synthesized.
+
+
+Synthesizing Unit <flipflopD_CE>.
+    Related source file is "D:/Users/aldemaro/Documents/proyecto_tesis/columna/flipflopD_CE.vhd".
+    Found 1-bit register for signal <temp>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <flipflopD_CE> synthesized.
+
+
+Synthesizing Unit <bloque1>.
+    Related source file is "D:/Users/aldemaro/Documents/proyecto_tesis/columna/bloque1.vhd".
+Unit <bloque1> synthesized.
+
+
+Synthesizing Unit <sticky>.
+    Related source file is "D:/Users/aldemaro/Documents/proyecto_tesis/columna/sticky.vhd".
+Unit <sticky> synthesized.
+
+
+Synthesizing Unit <half_neuronas2>.
+    Related source file is "D:/Users/aldemaro/Documents/proyecto_tesis/columna/half_neuronas2.vhd".
+Unit <half_neuronas2> synthesized.
+
+
+Synthesizing Unit <neurona>.
+    Related source file is "D:/Users/aldemaro/Documents/proyecto_tesis/columna/neurona.vhd".
+WARNING:Xst:653 - Signal <const_bip> is used but never assigned. This sourceless signal will be automatically connected to value 01.
+    Found 16-bit tristate buffer for signal <z_out>.
+    Found 16-bit comparator equal for signal <rec_out$cmp_eq0000> created at line 99.
+    Found 16-bit tristate buffer for signal <x_sg>.
+    Summary:
+	inferred   1 Comparator(s).
+	inferred  32 Tristate(s).
+Unit <neurona> synthesized.
+
+
+Synthesizing Unit <columna_4neuronas>.
+    Related source file is "D:/Users/aldemaro/Documents/proyecto_tesis/columna/columna_4neuronas.vhd".
+WARNING:Xst:646 - Signal <rec3_sg> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <rec2_sg> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <rec1_sg> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <rec0_sg> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+Unit <columna_4neuronas> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 20
+ 1-bit register                                        : 16
+ 16-bit register                                       : 4
+# Comparators                                          : 4
+ 16-bit comparator equal                               : 4
+# Tristates                                            : 8
+ 16-bit tristate buffer                                : 8
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Loading device for application Rf_Device from file '3s100e.nph' in environment C:\Xilinx\10.1\ISE.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 80
+ Flip-Flops                                            : 80
+# Comparators                                          : 4
+ 16-bit comparator equal                               : 4
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:2677 - Node <n3/latch/z_out_0> of sequential type is unconnected in block <columna_4neuronas>.
+WARNING:Xst:2677 - Node <n3/latch/z_out_1> of sequential type is unconnected in block <columna_4neuronas>.
+WARNING:Xst:2677 - Node <n3/latch/z_out_2> of sequential type is unconnected in block <columna_4neuronas>.
+WARNING:Xst:2677 - Node <n3/latch/z_out_3> of sequential type is unconnected in block <columna_4neuronas>.
+WARNING:Xst:2677 - Node <n3/latch/z_out_4> of sequential type is unconnected in block <columna_4neuronas>.
+WARNING:Xst:2677 - Node <n3/latch/z_out_5> of sequential type is unconnected in block <columna_4neuronas>.
+WARNING:Xst:2677 - Node <n3/latch/z_out_6> of sequential type is unconnected in block <columna_4neuronas>.
+WARNING:Xst:2677 - Node <n3/latch/z_out_7> of sequential type is unconnected in block <columna_4neuronas>.
+WARNING:Xst:2677 - Node <n3/latch/z_out_8> of sequential type is unconnected in block <columna_4neuronas>.
+WARNING:Xst:2677 - Node <n3/latch/z_out_9> of sequential type is unconnected in block <columna_4neuronas>.
+WARNING:Xst:2677 - Node <n3/latch/z_out_10> of sequential type is unconnected in block <columna_4neuronas>.
+WARNING:Xst:2677 - Node <n3/latch/z_out_11> of sequential type is unconnected in block <columna_4neuronas>.
+WARNING:Xst:2677 - Node <n3/latch/z_out_12> of sequential type is unconnected in block <columna_4neuronas>.
+WARNING:Xst:2677 - Node <n3/latch/z_out_13> of sequential type is unconnected in block <columna_4neuronas>.
+WARNING:Xst:2677 - Node <n3/latch/z_out_14> of sequential type is unconnected in block <columna_4neuronas>.
+WARNING:Xst:2677 - Node <n3/latch/z_out_15> of sequential type is unconnected in block <columna_4neuronas>.
+WARNING:Xst:2677 - Node <n2/latch/z_out_0> of sequential type is unconnected in block <columna_4neuronas>.
+WARNING:Xst:2677 - Node <n2/latch/z_out_1> of sequential type is unconnected in block <columna_4neuronas>.
+WARNING:Xst:2677 - Node <n2/latch/z_out_2> of sequential type is unconnected in block <columna_4neuronas>.
+WARNING:Xst:2677 - Node <n2/latch/z_out_3> of sequential type is unconnected in block <columna_4neuronas>.
+WARNING:Xst:2677 - Node <n2/latch/z_out_4> of sequential type is unconnected in block <columna_4neuronas>.
+WARNING:Xst:2677 - Node <n2/latch/z_out_5> of sequential type is unconnected in block <columna_4neuronas>.
+WARNING:Xst:2677 - Node <n2/latch/z_out_6> of sequential type is unconnected in block <columna_4neuronas>.
+WARNING:Xst:2677 - Node <n2/latch/z_out_7> of sequential type is unconnected in block <columna_4neuronas>.
+WARNING:Xst:2677 - Node <n2/latch/z_out_8> of sequential type is unconnected in block <columna_4neuronas>.
+WARNING:Xst:2677 - Node <n2/latch/z_out_9> of sequential type is unconnected in block <columna_4neuronas>.
+WARNING:Xst:2677 - Node <n2/latch/z_out_10> of sequential type is unconnected in block <columna_4neuronas>.
+WARNING:Xst:2677 - Node <n2/latch/z_out_11> of sequential type is unconnected in block <columna_4neuronas>.
+WARNING:Xst:2677 - Node <n2/latch/z_out_12> of sequential type is unconnected in block <columna_4neuronas>.
+WARNING:Xst:2677 - Node <n2/latch/z_out_13> of sequential type is unconnected in block <columna_4neuronas>.
+WARNING:Xst:2677 - Node <n2/latch/z_out_14> of sequential type is unconnected in block <columna_4neuronas>.
+WARNING:Xst:2677 - Node <n2/latch/z_out_15> of sequential type is unconnected in block <columna_4neuronas>.
+WARNING:Xst:2677 - Node <n1/latch/z_out_0> of sequential type is unconnected in block <columna_4neuronas>.
+WARNING:Xst:2677 - Node <n1/latch/z_out_1> of sequential type is unconnected in block <columna_4neuronas>.
+WARNING:Xst:2677 - Node <n1/latch/z_out_2> of sequential type is unconnected in block <columna_4neuronas>.
+WARNING:Xst:2677 - Node <n1/latch/z_out_3> of sequential type is unconnected in block <columna_4neuronas>.
+WARNING:Xst:2677 - Node <n1/latch/z_out_4> of sequential type is unconnected in block <columna_4neuronas>.
+WARNING:Xst:2677 - Node <n1/latch/z_out_5> of sequential type is unconnected in block <columna_4neuronas>.
+WARNING:Xst:2677 - Node <n1/latch/z_out_6> of sequential type is unconnected in block <columna_4neuronas>.
+WARNING:Xst:2677 - Node <n1/latch/z_out_7> of sequential type is unconnected in block <columna_4neuronas>.
+WARNING:Xst:2677 - Node <n1/latch/z_out_8> of sequential type is unconnected in block <columna_4neuronas>.
+WARNING:Xst:2677 - Node <n1/latch/z_out_9> of sequential type is unconnected in block <columna_4neuronas>.
+WARNING:Xst:2677 - Node <n1/latch/z_out_10> of sequential type is unconnected in block <columna_4neuronas>.
+WARNING:Xst:2677 - Node <n1/latch/z_out_11> of sequential type is unconnected in block <columna_4neuronas>.
+WARNING:Xst:2677 - Node <n1/latch/z_out_12> of sequential type is unconnected in block <columna_4neuronas>.
+WARNING:Xst:2677 - Node <n1/latch/z_out_13> of sequential type is unconnected in block <columna_4neuronas>.
+WARNING:Xst:2677 - Node <n1/latch/z_out_14> of sequential type is unconnected in block <columna_4neuronas>.
+WARNING:Xst:2677 - Node <n1/latch/z_out_15> of sequential type is unconnected in block <columna_4neuronas>.
+WARNING:Xst:2677 - Node <n0/latch/z_out_0> of sequential type is unconnected in block <columna_4neuronas>.
+WARNING:Xst:2677 - Node <n0/latch/z_out_1> of sequential type is unconnected in block <columna_4neuronas>.
+WARNING:Xst:2677 - Node <n0/latch/z_out_2> of sequential type is unconnected in block <columna_4neuronas>.
+WARNING:Xst:2677 - Node <n0/latch/z_out_3> of sequential type is unconnected in block <columna_4neuronas>.
+WARNING:Xst:2677 - Node <n0/latch/z_out_4> of sequential type is unconnected in block <columna_4neuronas>.
+WARNING:Xst:2677 - Node <n0/latch/z_out_5> of sequential type is unconnected in block <columna_4neuronas>.
+WARNING:Xst:2677 - Node <n0/latch/z_out_6> of sequential type is unconnected in block <columna_4neuronas>.
+WARNING:Xst:2677 - Node <n0/latch/z_out_7> of sequential type is unconnected in block <columna_4neuronas>.
+WARNING:Xst:2677 - Node <n0/latch/z_out_8> of sequential type is unconnected in block <columna_4neuronas>.
+WARNING:Xst:2677 - Node <n0/latch/z_out_9> of sequential type is unconnected in block <columna_4neuronas>.
+WARNING:Xst:2677 - Node <n0/latch/z_out_10> of sequential type is unconnected in block <columna_4neuronas>.
+WARNING:Xst:2677 - Node <n0/latch/z_out_11> of sequential type is unconnected in block <columna_4neuronas>.
+WARNING:Xst:2677 - Node <n0/latch/z_out_12> of sequential type is unconnected in block <columna_4neuronas>.
+WARNING:Xst:2677 - Node <n0/latch/z_out_13> of sequential type is unconnected in block <columna_4neuronas>.
+WARNING:Xst:2677 - Node <n0/latch/z_out_14> of sequential type is unconnected in block <columna_4neuronas>.
+WARNING:Xst:2677 - Node <n0/latch/z_out_15> of sequential type is unconnected in block <columna_4neuronas>.
+WARNING:Xst:2042 - Unit columna_4neuronas: 48 internal tristates are replaced by logic (pull-up yes): z0_sg<0>, z0_sg<10>, z0_sg<11>, z0_sg<12>, z0_sg<13>, z0_sg<14>, z0_sg<15>, z0_sg<1>, z0_sg<2>, z0_sg<3>, z0_sg<4>, z0_sg<5>, z0_sg<6>, z0_sg<7>, z0_sg<8>, z0_sg<9>, z1_sg<0>, z1_sg<10>, z1_sg<11>, z1_sg<12>, z1_sg<13>, z1_sg<14>, z1_sg<15>, z1_sg<1>, z1_sg<2>, z1_sg<3>, z1_sg<4>, z1_sg<5>, z1_sg<6>, z1_sg<7>, z1_sg<8>, z1_sg<9>, z2_sg<0>, z2_sg<10>, z2_sg<11>, z2_sg<12>, z2_sg<13>, z2_sg<14>, z2_sg<15>, z2_sg<1>, z2_sg<2>, z2_sg<3>, z2_sg<4>, z2_sg<5>, z2_sg<6>, z2_sg<7>, z2_sg<8>, z2_sg<9>.
+
+Optimizing unit <columna_4neuronas> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block columna_4neuronas, actual ratio is 2.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 16
+ Flip-Flops                                            : 16
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                             *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : columna_4neuronas.ngr
+Top Level Output File Name         : columna_4neuronas
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : NO
+
+Design Statistics
+# IOs                              : 48
+
+Cell Usage :
+# BELS                             : 32
+#      INV                         : 4
+#      LUT2                        : 4
+#      LUT3                        : 4
+#      LUT4                        : 20
+# FlipFlops/Latches                : 16
+#      FDC                         : 12
+#      FDCE                        : 4
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 47
+#      IBUF                        : 24
+#      OBUF                        : 7
+#      OBUFT                       : 16
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s100ecp132-5 
+
+ Number of Slices:                       18  out of    960     1%  
+ Number of Slice Flip Flops:             16  out of   1920     0%  
+ Number of 4 input LUTs:                 32  out of   1920     1%  
+ Number of IOs:                          48
+ Number of bonded IOBs:                  48  out of     83    57%  
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 16    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+------------------------+-------+
+Control Signal                     | Buffer(FF name)        | Load  |
+-----------------------------------+------------------------+-------+
+reset_in                           | IBUF                   | 16    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 2.954ns (Maximum Frequency: 338.558MHz)
+   Minimum input arrival time before clock: 4.113ns
+   Maximum output required time after clock: 5.726ns
+   Maximum combinational path delay: 5.631ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 2.954ns (frequency: 338.558MHz)
+  Total number of paths / destination ports: 29 / 17
+-------------------------------------------------------------------------
+Delay:               2.954ns (Levels of Logic = 1)
+  Source:            n3/hn/b1/ff/temp (FF)
+  Destination:       n3/hn/pegajoso/ffce/temp (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: n3/hn/b1/ff/temp to n3/hn/pegajoso/ffce/temp
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              3   0.514   0.451  n3/hn/b1/ff/temp (n3/hn/b1/ff/temp)
+     INV:I->O             17   0.612   0.893  n3/der_out_inv1_INV_0 (n3/der_out_inv)
+     FDCE:CE                   0.483          n3/hn/pegajoso/ffce/temp
+    ----------------------------------------
+    Total                      2.954ns (1.609ns logic, 1.345ns route)
+                                       (54.5% logic, 45.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 15 / 7
+-------------------------------------------------------------------------
+Offset:              4.113ns (Levels of Logic = 3)
+  Source:            reset_in (PAD)
+  Destination:       n3/hn/b1/ff/temp (FF)
+  Destination Clock: clk rising
+
+  Data Path: reset_in to n3/hn/b1/ff/temp
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            20   1.106   1.089  reset_in_IBUF (reset_in_IBUF)
+     LUT2:I0->O            1   0.612   0.426  n3/hn/b1/or_sg_SW0 (N21)
+     LUT4:I1->O            1   0.612   0.000  n3/hn/b1/or_sg (n3/hn/b1/or_sg)
+     FDC:D                     0.268          n3/hn/b1/ff/temp
+    ----------------------------------------
+    Total                      4.113ns (2.598ns logic, 1.515ns route)
+                                       (63.2% logic, 36.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 71 / 23
+-------------------------------------------------------------------------
+Offset:              5.726ns (Levels of Logic = 2)
+  Source:            n1/hn/b1/ff/temp (FF)
+  Destination:       z_out<15> (PAD)
+  Source Clock:      clk rising
+
+  Data Path: n1/hn/b1/ff/temp to z_out<15>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q             19   0.514   1.074  n1/hn/b1/ff/temp (n1/hn/b1/ff/temp)
+     LUT4:I0->O            1   0.612   0.357  z2_sg<9>LogicTrst1 (z2_sg<9>)
+     OBUFT:I->O                3.169          z_out_9_OBUFT (z_out<9>)
+    ----------------------------------------
+    Total                      5.726ns (4.295ns logic, 1.431ns route)
+                                       (75.0% logic, 25.0% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 16 / 16
+-------------------------------------------------------------------------
+Delay:               5.631ns (Levels of Logic = 3)
+  Source:            x_in<15> (PAD)
+  Destination:       z_out<15> (PAD)
+
+  Data Path: x_in<15> to z_out<15>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   1.106   0.387  x_in_15_IBUF (x_in_15_IBUF)
+     LUT4:I2->O            1   0.612   0.357  z2_sg<15>LogicTrst1 (z2_sg<15>)
+     OBUFT:I->O                3.169          z_out_15_OBUFT (z_out<15>)
+    ----------------------------------------
+    Total                      5.631ns (4.887ns logic, 0.744ns route)
+                                       (86.8% logic, 13.2% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 7.00 secs
+Total CPU time to Xst completion: 7.08 secs
+ 
+--> 
+
+Total memory usage is 157032 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   70 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

@@ -1,0 +1,3 @@
+vhdl work "flipflopD_CE.vhd"
+vhdl work "sticky.vhd"
+vhdl work "sticky_tb.vhd"

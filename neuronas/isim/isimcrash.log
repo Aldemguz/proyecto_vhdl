@@ -1,0 +1,7 @@
+Unable to capture context for thread 3576 in process 3536, can not generate back trace
+Unable to capture context for thread 2412 in process 3536, can not generate back trace
+Unable to capture context for thread 3848 in process 3536, can not generate back trace
+Exception at PC 0x7C812AEB
+Unknown signal -529697949 received
+Printing stacktrace...
+

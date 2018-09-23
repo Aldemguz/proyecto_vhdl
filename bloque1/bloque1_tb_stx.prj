@@ -1,0 +1,3 @@
+vhdl isim_temp "flipflopD.vhd"
+vhdl isim_temp "bloque1.vhd"
+vhdl isim_temp "bloque1_tb.vhd"

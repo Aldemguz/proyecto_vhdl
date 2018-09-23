@@ -1,0 +1,7 @@
+vhdl work "flipflopD.vhd"
+vhdl work "bloque2.vhd"
+vhdl work "bloque1.vhd"
+vhdl work "registro_16bits_SE.vhd"
+vhdl work "registro_16bits.vhd"
+vhdl work "half_neurona.vhd"
+vhdl work "first_neurona.vhd"

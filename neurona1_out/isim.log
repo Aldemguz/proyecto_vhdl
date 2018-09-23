@@ -1,0 +1,43 @@
+Command line:
+   ./salida_neurona_tb_isim_beh.exe
+     -intstyle  ise
+     -ipchost  localhost
+     -ipcport  1913
+
+Sat Sep 22 13:30:39 2018
+
+Total Line Count : 54
+
+ Elaboration Time: 0.03125 sec
+
+ Current Memory Usage: 141.66 Meg
+
+ Total Signals          : 20
+ Total Nets             : 40
+ Total Signal Drivers   : 10
+ Total Blocks           : 7
+ Total Primitive Blocks : 1
+ Total Processes        : 6
+ Total Traceable Variables  : 15
+ Total Scalar Nets and Variables : 541
+ntrace select -o on -n /salida_neurona_tb/x_in 
+ntrace select -o on -n /salida_neurona_tb/rec_in 
+ntrace select -o on -n /salida_neurona_tb/der_in 
+ntrace select -o on -n /salida_neurona_tb/clk 
+ntrace select -o on -n /salida_neurona_tb/reset_in 
+ntrace select -o on -n /salida_neurona_tb/z_out 
+ntrace select -o on -n /salida_neurona_tb/uut/and_sg 
+ntrace select -o on -n /salida_neurona_tb/uut/ff_sg 
+ntrace select -o on -n /salida_neurona_tb/uut/or_sg 
+ntrace select -o on -n /salida_neurona_tb/uut/ff/q 
+ntrace start 
+isimrun 1000 ns 
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+
+ Total Simulation Time: 0.078125 sec
+
+ Current Memory Usage: 152.146 Meg
+
+Sat Sep 22 13:41:07 2018
+

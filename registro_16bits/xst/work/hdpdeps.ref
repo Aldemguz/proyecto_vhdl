@@ -1,0 +1,9 @@
+V3 3
+FL D:/Users/aldemaro/Documents/proyecto_tesis/registro_16bits/registro_16bits.vhd 2018/09/18.07:44:14 K.31
+EN work/registro_16bits 1537267458 \
+      FL D:/Users/aldemaro/Documents/proyecto_tesis/registro_16bits/registro_16bits.vhd \
+      PB ieee/std_logic_1164 1200023565 PB ieee/std_logic_arith 1200023566 \
+      PB ieee/STD_LOGIC_UNSIGNED 1200023567
+AR work/registro_16bits/Behavioral 1537267459 \
+      FL D:/Users/aldemaro/Documents/proyecto_tesis/registro_16bits/registro_16bits.vhd \
+      EN work/registro_16bits 1537267458

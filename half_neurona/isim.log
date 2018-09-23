@@ -1,0 +1,39 @@
+Command line:
+   ./half_neurona_tb_isim_beh.exe
+     -intstyle  ise
+     -ipchost  localhost
+     -ipcport  2152
+
+Sat Sep 22 18:11:24 2018
+
+Total Line Count : 57
+
+ Elaboration Time: 0.015625 sec
+
+ Current Memory Usage: 141.66 Meg
+
+ Total Signals          : 33
+ Total Nets             : 15
+ Total Signal Drivers   : 14
+ Total Blocks           : 9
+ Total Primitive Blocks : 2
+ Total Processes        : 11
+ Total Traceable Variables  : 15
+ Total Scalar Nets and Variables : 516
+ntrace select -o on -n /half_neurona_tb/proto_in 
+ntrace select -o on -n /half_neurona_tb/izq_in 
+ntrace select -o on -n /half_neurona_tb/reset_in 
+ntrace select -o on -n /half_neurona_tb/clk 
+ntrace select -o on -n /half_neurona_tb/der_out 
+ntrace select -o on -n /half_neurona_tb/enable_out 
+ntrace start 
+isimrun 1000 ns 
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+
+ Total Simulation Time: 0.078125 sec
+
+ Current Memory Usage: 152.146 Meg
+
+Sat Sep 22 18:12:25 2018
+

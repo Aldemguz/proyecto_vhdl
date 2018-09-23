@@ -1,0 +1,5 @@
+run 1000 ns
+step
+isimrun all
+isimrun all
+exit

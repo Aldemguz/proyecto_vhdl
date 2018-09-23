@@ -1,0 +1,58 @@
+V3 27
+FL D:/Users/aldemaro/Documents/proyecto_tesis/first_neurona/bloque1.vhd 2018/09/22.10:26:27 K.31
+EN work/bloque1 1537651239 \
+      FL D:/Users/aldemaro/Documents/proyecto_tesis/first_neurona/bloque1.vhd \
+      PB ieee/std_logic_1164 1200023565 PB ieee/std_logic_arith 1200023566 \
+      PB ieee/STD_LOGIC_UNSIGNED 1200023567
+AR work/bloque1/Structural 1537651240 \
+      FL D:/Users/aldemaro/Documents/proyecto_tesis/first_neurona/bloque1.vhd \
+      EN work/bloque1 1537651239 CP flipflopD
+FL D:/Users/aldemaro/Documents/proyecto_tesis/first_neurona/bloque2.vhd 2018/09/22.18:07:56 K.31
+EN work/bloque2 1537651241 \
+      FL D:/Users/aldemaro/Documents/proyecto_tesis/first_neurona/bloque2.vhd \
+      PB ieee/std_logic_1164 1200023565 PB ieee/std_logic_arith 1200023566 \
+      PB ieee/STD_LOGIC_UNSIGNED 1200023567
+AR work/bloque2/Dataflow 1537651242 \
+      FL D:/Users/aldemaro/Documents/proyecto_tesis/first_neurona/bloque2.vhd \
+      EN work/bloque2 1537651241
+FL D:/Users/aldemaro/Documents/proyecto_tesis/first_neurona/first_neurona.vhd 2018/09/22.14:11:09 K.31
+EN work/first_neurona 1537651249 \
+      FL D:/Users/aldemaro/Documents/proyecto_tesis/first_neurona/first_neurona.vhd \
+      PB ieee/std_logic_1164 1200023565 PB ieee/std_logic_arith 1200023566 \
+      PB ieee/STD_LOGIC_UNSIGNED 1200023567
+AR work/first_neurona/Behavioral 1537651250 \
+      FL D:/Users/aldemaro/Documents/proyecto_tesis/first_neurona/first_neurona.vhd \
+      EN work/first_neurona 1537651249 CP registro_16bits_SE CP half_neurona \
+      CP registro_16bits
+FL D:/Users/aldemaro/Documents/proyecto_tesis/first_neurona/flipflopD.vhd 2018/09/22.12:02:18 K.31
+EN work/flipflopD 1537651237 \
+      FL D:/Users/aldemaro/Documents/proyecto_tesis/first_neurona/flipflopD.vhd \
+      PB ieee/std_logic_1164 1200023565 PB ieee/std_logic_arith 1200023566 \
+      PB ieee/STD_LOGIC_UNSIGNED 1200023567
+AR work/flipflopD/Behavioral 1537651238 \
+      FL D:/Users/aldemaro/Documents/proyecto_tesis/first_neurona/flipflopD.vhd \
+      EN work/flipflopD 1537651237
+FL D:/Users/aldemaro/Documents/proyecto_tesis/first_neurona/half_neurona.vhd 2018/09/22.18:19:17 K.31
+EN work/half_neurona 1537651245 \
+      FL D:/Users/aldemaro/Documents/proyecto_tesis/first_neurona/half_neurona.vhd \
+      PB ieee/std_logic_1164 1200023565 PB ieee/std_logic_arith 1200023566 \
+      PB ieee/STD_LOGIC_UNSIGNED 1200023567
+AR work/half_neurona/Behavioral 1537651246 \
+      FL D:/Users/aldemaro/Documents/proyecto_tesis/first_neurona/half_neurona.vhd \
+      EN work/half_neurona 1537651245 CP bloque1 CP bloque2
+FL D:/Users/aldemaro/Documents/proyecto_tesis/first_neurona/registro_16bits.vhd 2018/09/19.19:22:32 K.31
+EN work/registro_16bits 1537651247 \
+      FL D:/Users/aldemaro/Documents/proyecto_tesis/first_neurona/registro_16bits.vhd \
+      PB ieee/std_logic_1164 1200023565 PB ieee/std_logic_arith 1200023566 \
+      PB ieee/STD_LOGIC_UNSIGNED 1200023567
+AR work/registro_16bits/Behavioral 1537651248 \
+      FL D:/Users/aldemaro/Documents/proyecto_tesis/first_neurona/registro_16bits.vhd \
+      EN work/registro_16bits 1537651247
+FL D:/Users/aldemaro/Documents/proyecto_tesis/first_neurona/registro_16bits_SE.vhd 2018/09/22.14:09:16 K.31
+EN work/registro_16bits_SE 1537651243 \
+      FL D:/Users/aldemaro/Documents/proyecto_tesis/first_neurona/registro_16bits_SE.vhd \
+      PB ieee/std_logic_1164 1200023565 PB ieee/std_logic_arith 1200023566 \
+      PB ieee/STD_LOGIC_UNSIGNED 1200023567
+AR work/registro_16bits_SE/Behavioral 1537651244 \
+      FL D:/Users/aldemaro/Documents/proyecto_tesis/first_neurona/registro_16bits_SE.vhd \
+      EN work/registro_16bits_SE 1537651243

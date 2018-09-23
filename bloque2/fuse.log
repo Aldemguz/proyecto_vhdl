@@ -1,0 +1,36 @@
+Determining compilation order of HDL files
+Analyzing VHDL file bloque2.vhd
+Restoring VHDL parse-tree ieee.std_logic_1164 from
+c:/xilinx/10.1/ise/vhdl/hdp/nt/ieee/std_logic_1164.vdb
+Restoring VHDL parse-tree std.standard from
+c:/xilinx/10.1/ise/vhdl/hdp/nt/std/standard.vdb
+Restoring VHDL parse-tree ieee.std_logic_arith from
+c:/xilinx/10.1/ise/vhdl/hdp/nt/ieee/std_logic_arith.vdb
+Restoring VHDL parse-tree ieee.std_logic_unsigned from
+c:/xilinx/10.1/ise/vhdl/hdp/nt/ieee/std_logic_unsigned.vdb
+Analyzing VHDL file bloque2_tb.vhd
+Restoring VHDL parse-tree ieee.numeric_std from
+c:/xilinx/10.1/ise/vhdl/hdp/nt/ieee/numeric_std.vdb
+Saving VHDL parse-tree work.bloque2 into
+d:/users/aldemaro/documents/proyecto_tesis/bloque2/isim/work/bloque2.vdb
+Saving VHDL parse-tree work.bloque2_tb into
+d:/users/aldemaro/documents/proyecto_tesis/bloque2/isim/work/bloque2_tb.vdb
+Starting static elaboration
+WARNING:HDLCompiler:746 - "N:/K.31/rtf/vhdl/src/ieee/numeric_std.vhd" Line 867.
+   Range is empty (null range)
+WARNING:HDLCompiler:746 - "N:/K.31/rtf/vhdl/src/ieee/numeric_std.vhd" Line 868.
+   Range is empty (null range)
+Completed static elaboration
+Fuse Memory Usage: 56224 Kb
+Fuse CPU Usage: 780 ms
+Using precompiled package standard from library std
+Using precompiled package std_logic_1164 from library ieee
+Using precompiled package std_logic_arith from library ieee
+Using precompiled package std_logic_unsigned from library ieee
+Using precompiled package numeric_std from library ieee
+Compiling architecture dataflow of entity bloque2 [bloque2_default]
+Compiling architecture behavior of entity bloque2_tb
+Compiled 8 VHDL Units
+Built simulation executable bloque2_tb_isim_beh.exe
+Fuse Memory Usage: 57508 Kb
+Fuse CPU Usage: 796 ms

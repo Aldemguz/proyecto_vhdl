@@ -1,0 +1,8 @@
+AR bloque1 structural D:/Users/aldemaro/Documents/proyecto_tesis/half_neurona/bloque1.vhd sub00/vhpl03 1537650536
+EN flipflopd NULL D:/Users/aldemaro/Documents/proyecto_tesis/half_neurona/flipflopD.vhd sub00/vhpl00 1537650533
+EN half_neurona NULL D:/Users/aldemaro/Documents/proyecto_tesis/half_neurona/half_neurona.vhd sub00/vhpl06 1537650539
+EN bloque1 NULL D:/Users/aldemaro/Documents/proyecto_tesis/half_neurona/bloque1.vhd sub00/vhpl02 1537650535
+EN bloque2 NULL D:/Users/aldemaro/Documents/proyecto_tesis/half_neurona/bloque2.vhd sub00/vhpl04 1537650537
+AR bloque2 dataflow D:/Users/aldemaro/Documents/proyecto_tesis/half_neurona/bloque2.vhd sub00/vhpl05 1537650538
+AR half_neurona behavioral D:/Users/aldemaro/Documents/proyecto_tesis/half_neurona/half_neurona.vhd sub00/vhpl07 1537650540
+AR flipflopd behavioral D:/Users/aldemaro/Documents/proyecto_tesis/half_neurona/flipflopD.vhd sub00/vhpl01 1537650534

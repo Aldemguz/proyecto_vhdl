@@ -1,0 +1,3 @@
+vhdl work "flipflopD.vhd"
+vhdl work "salida_neurona.vhd"
+vhdl work "salida_neurona_tb.vhd"

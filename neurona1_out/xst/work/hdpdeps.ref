@@ -1,0 +1,17 @@
+V3 7
+FL D:/Users/aldemaro/Documents/proyecto_tesis/neurona1_out/flipflopD.vhd 2018/09/22.12:02:18 K.31
+EN work/flipflopD 1537632758 \
+      FL D:/Users/aldemaro/Documents/proyecto_tesis/neurona1_out/flipflopD.vhd \
+      PB ieee/std_logic_1164 1200023565 PB ieee/std_logic_arith 1200023566 \
+      PB ieee/STD_LOGIC_UNSIGNED 1200023567
+AR work/flipflopD/Behavioral 1537632759 \
+      FL D:/Users/aldemaro/Documents/proyecto_tesis/neurona1_out/flipflopD.vhd \
+      EN work/flipflopD 1537632758
+FL D:/Users/aldemaro/Documents/proyecto_tesis/neurona1_out/salida_neurona.vhd 2018/09/22.13:12:33 K.31
+EN work/salida_neurona 1537632760 \
+      FL D:/Users/aldemaro/Documents/proyecto_tesis/neurona1_out/salida_neurona.vhd \
+      PB ieee/std_logic_1164 1200023565 PB ieee/std_logic_arith 1200023566 \
+      PB ieee/STD_LOGIC_UNSIGNED 1200023567
+AR work/salida_neurona/Behavioral 1537632761 \
+      FL D:/Users/aldemaro/Documents/proyecto_tesis/neurona1_out/salida_neurona.vhd \
+      EN work/salida_neurona 1537632760 CP flipflopD

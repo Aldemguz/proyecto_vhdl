@@ -1,0 +1,3 @@
+vhdl work "flipflopD.vhd"
+vhdl work "bloque1.vhd"
+vhdl work "bloque1_tb.vhd"

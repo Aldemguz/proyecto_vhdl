@@ -1,0 +1,7 @@
+vhdl isim_temp "flipflopD.vhd"
+vhdl isim_temp "bloque2.vhd"
+vhdl isim_temp "bloque1.vhd"
+vhdl isim_temp "registro_16bits.vhd"
+vhdl isim_temp "half_neurona.vhd"
+vhdl isim_temp "first_neurona.vhd"
+vhdl isim_temp "first_neurona_tb.vhd"

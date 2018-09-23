@@ -1,0 +1,42 @@
+Command line:
+   ./first_neurona_tb_isim_beh.exe
+     -intstyle  ise
+     -ipchost  localhost
+     -ipcport  1050
+
+Sat Sep 22 21:58:32 2018
+
+Total Line Count : 65
+
+ Elaboration Time: 0 sec
+
+ Current Memory Usage: 141.664 Meg
+
+ Total Signals          : 56
+ Total Nets             : 81
+ Total Signal Drivers   : 20
+ Total Blocks           : 12
+ Total Primitive Blocks : 4
+ Total Processes        : 16
+ Total Traceable Variables  : 15
+ Total Scalar Nets and Variables : 582
+ntrace select -o on -n /first_neurona_tb/x_in 
+ntrace select -o on -n /first_neurona_tb/proto_in 
+ntrace select -o on -n /first_neurona_tb/izq_in 
+ntrace select -o on -n /first_neurona_tb/clk 
+ntrace select -o on -n /first_neurona_tb/reset_in 
+ntrace select -o on -n /first_neurona_tb/rec_out 
+ntrace select -o on -n /first_neurona_tb/der_out 
+ntrace select -o on -n /first_neurona_tb/z_out 
+ntrace select -o on -n /first_neurona_tb/uut/latch/z_out 
+ntrace start 
+isimrun 1000 ns 
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+
+ Total Simulation Time: 0.0625 sec
+
+ Current Memory Usage: 152.15 Meg
+
+Sat Sep 22 21:59:08 2018
+

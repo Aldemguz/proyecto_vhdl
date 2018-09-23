@@ -1,0 +1,37 @@
+Command line:
+   ./flipflopD_tb_isim_beh.exe
+     -intstyle  ise
+     -ipchost  localhost
+     -ipcport  1761
+
+Sat Sep 22 12:02:52 2018
+
+Total Line Count : 41
+
+ Elaboration Time: 0.03125 sec
+
+ Current Memory Usage: 141.66 Meg
+
+ Total Signals          : 9
+ Total Nets             : 5
+ Total Signal Drivers   : 5
+ Total Blocks           : 6
+ Total Primitive Blocks : 1
+ Total Processes        : 3
+ Total Traceable Variables  : 15
+ Total Scalar Nets and Variables : 506
+ntrace select -o on -n /flipflopd_tb/d 
+ntrace select -o on -n /flipflopd_tb/clk 
+ntrace select -o on -n /flipflopd_tb/reset_in 
+ntrace select -o on -n /flipflopd_tb/q 
+ntrace start 
+isimrun 1000 ns 
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+
+ Total Simulation Time: 0.109375 sec
+
+ Current Memory Usage: 152.146 Meg
+
+Sat Sep 22 12:03:10 2018
+

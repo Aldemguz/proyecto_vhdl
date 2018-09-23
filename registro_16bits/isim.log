@@ -1,0 +1,47 @@
+Command line:
+   ./registro_16bits_tb_isim_beh.exe
+     -intstyle  ise
+     -ipchost  localhost
+     -ipcport  1057
+
+Wed Sep 19 19:23:02 2018
+
+Total Line Count : 56
+
+ Elaboration Time: 0.015625 sec
+
+ Current Memory Usage: 141.66 Meg
+
+ Total Signals          : 10
+ Total Nets             : 35
+ Total Signal Drivers   : 5
+ Total Blocks           : 6
+ Total Primitive Blocks : 1
+ Total Processes        : 2
+ Total Traceable Variables  : 15
+ Total Scalar Nets and Variables : 536
+ntrace select -o on -n /registro_16bits_tb/x_in 
+ntrace select -o on -n /registro_16bits_tb/enable_in 
+ntrace select -o on -n /registro_16bits_tb/reset_in 
+ntrace select -o on -n /registro_16bits_tb/clk 
+ntrace select -o on -n /registro_16bits_tb/z_out 
+ntrace start 
+isimrun 1000 ns 
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+restart
+isimstep 
+Simulator is doing circuit initialization process.
+isimrun all 
+Finished circuit initialization process.
+restart
+isimrun all 
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+
+ Total Simulation Time: 0.09375 sec
+
+ Current Memory Usage: 152.158 Meg
+
+Wed Sep 19 19:24:16 2018
+

@@ -1,0 +1,17 @@
+V3 7
+FL D:/Users/aldemaro/Documents/proyecto_tesis/bloque1/bloque1.vhd 2018/09/22.11:53:52 K.31
+EN work/bloque1 1537628038 \
+      FL D:/Users/aldemaro/Documents/proyecto_tesis/bloque1/bloque1.vhd \
+      PB ieee/std_logic_1164 1200023565 PB ieee/std_logic_arith 1200023566 \
+      PB ieee/STD_LOGIC_UNSIGNED 1200023567
+AR work/bloque1/Structural 1537628039 \
+      FL D:/Users/aldemaro/Documents/proyecto_tesis/bloque1/bloque1.vhd \
+      EN work/bloque1 1537628038 CP flipflopD
+FL D:/Users/aldemaro/Documents/proyecto_tesis/bloque1/flipflopD.vhd 2018/09/22.10:38:56 K.31
+EN work/flipflopD 1537628036 \
+      FL D:/Users/aldemaro/Documents/proyecto_tesis/bloque1/flipflopD.vhd \
+      PB ieee/std_logic_1164 1200023565 PB ieee/std_logic_arith 1200023566 \
+      PB ieee/STD_LOGIC_UNSIGNED 1200023567
+AR work/flipflopD/Behavioral 1537628037 \
+      FL D:/Users/aldemaro/Documents/proyecto_tesis/bloque1/flipflopD.vhd \
+      EN work/flipflopD 1537628036

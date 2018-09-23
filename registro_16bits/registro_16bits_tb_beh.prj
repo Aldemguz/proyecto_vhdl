@@ -1,0 +1,2 @@
+vhdl work "registro_16bits.vhd"
+vhdl work "registro_16bits_tb.vhd"

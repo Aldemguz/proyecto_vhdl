@@ -1,0 +1,6 @@
+vhdl work "flipflopD_CE.vhd"
+vhdl work "flipflopD_A.vhd"
+vhdl work "sticky.vhd"
+vhdl work "bloque2_2.vhd"
+vhdl work "bloque1.vhd"
+vhdl work "half_neuronas2.vhd"

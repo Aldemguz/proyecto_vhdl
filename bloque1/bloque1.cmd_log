@@ -1,0 +1,2 @@
+xst -ise "D:/Users/aldemaro/Documents/proyecto_tesis/bloque1/bloque1.ise" -intstyle ise -ifn "D:/Users/aldemaro/Documents/proyecto_tesis/bloque1/bloque1.xst" -ofn "D:/Users/aldemaro/Documents/proyecto_tesis/bloque1/bloque1.syr"
+xst -ise "D:/Users/aldemaro/Documents/proyecto_tesis/bloque1/bloque1.ise" -intstyle ise -ifn "D:/Users/aldemaro/Documents/proyecto_tesis/bloque1/bloque1.xst" -ofn "D:/Users/aldemaro/Documents/proyecto_tesis/bloque1/bloque1.syr"

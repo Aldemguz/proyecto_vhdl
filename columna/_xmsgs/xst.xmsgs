@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="Xst" num="653" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">const_bip</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">01</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">rec3_sg</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">rec2_sg</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">rec1_sg</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">rec0_sg</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">n3/latch/z_out_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">columna_4neuronas</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">n3/latch/z_out_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">columna_4neuronas</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">n3/latch/z_out_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">columna_4neuronas</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">n3/latch/z_out_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">columna_4neuronas</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">n3/latch/z_out_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">columna_4neuronas</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">n3/latch/z_out_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">columna_4neuronas</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">n3/latch/z_out_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">columna_4neuronas</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">n3/latch/z_out_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">columna_4neuronas</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">n3/latch/z_out_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">columna_4neuronas</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">n3/latch/z_out_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">columna_4neuronas</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">n3/latch/z_out_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">columna_4neuronas</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">n3/latch/z_out_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">columna_4neuronas</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">n3/latch/z_out_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">columna_4neuronas</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">n3/latch/z_out_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">columna_4neuronas</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">n3/latch/z_out_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">columna_4neuronas</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">n3/latch/z_out_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">columna_4neuronas</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">n2/latch/z_out_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">columna_4neuronas</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">n2/latch/z_out_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">columna_4neuronas</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">n2/latch/z_out_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">columna_4neuronas</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">n2/latch/z_out_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">columna_4neuronas</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">n2/latch/z_out_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">columna_4neuronas</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">n2/latch/z_out_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">columna_4neuronas</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">n2/latch/z_out_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">columna_4neuronas</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">n2/latch/z_out_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">columna_4neuronas</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">n2/latch/z_out_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">columna_4neuronas</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">n2/latch/z_out_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">columna_4neuronas</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">n2/latch/z_out_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">columna_4neuronas</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">n2/latch/z_out_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">columna_4neuronas</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">n2/latch/z_out_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">columna_4neuronas</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">n2/latch/z_out_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">columna_4neuronas</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">n2/latch/z_out_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">columna_4neuronas</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">n2/latch/z_out_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">columna_4neuronas</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">n1/latch/z_out_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">columna_4neuronas</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">n1/latch/z_out_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">columna_4neuronas</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">n1/latch/z_out_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">columna_4neuronas</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">n1/latch/z_out_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">columna_4neuronas</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">n1/latch/z_out_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">columna_4neuronas</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">n1/latch/z_out_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">columna_4neuronas</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">n1/latch/z_out_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">columna_4neuronas</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">n1/latch/z_out_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">columna_4neuronas</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">n1/latch/z_out_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">columna_4neuronas</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">n1/latch/z_out_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">columna_4neuronas</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">n1/latch/z_out_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">columna_4neuronas</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">n1/latch/z_out_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">columna_4neuronas</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">n1/latch/z_out_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">columna_4neuronas</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">n1/latch/z_out_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">columna_4neuronas</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">n1/latch/z_out_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">columna_4neuronas</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">n1/latch/z_out_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">columna_4neuronas</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">n0/latch/z_out_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">columna_4neuronas</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">n0/latch/z_out_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">columna_4neuronas</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">n0/latch/z_out_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">columna_4neuronas</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">n0/latch/z_out_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">columna_4neuronas</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">n0/latch/z_out_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">columna_4neuronas</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">n0/latch/z_out_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">columna_4neuronas</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">n0/latch/z_out_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">columna_4neuronas</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">n0/latch/z_out_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">columna_4neuronas</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">n0/latch/z_out_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">columna_4neuronas</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">n0/latch/z_out_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">columna_4neuronas</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">n0/latch/z_out_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">columna_4neuronas</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">n0/latch/z_out_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">columna_4neuronas</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">n0/latch/z_out_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">columna_4neuronas</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">n0/latch/z_out_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">columna_4neuronas</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">n0/latch/z_out_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">columna_4neuronas</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">n0/latch/z_out_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">columna_4neuronas</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2042" delta="unknown" >Unit <arg fmt="%s" index="1">columna_4neuronas</arg>: <arg fmt="%d" index="2">48</arg> internal tristates are replaced by logic (pull-up <arg fmt="%s" index="3">yes</arg>): </msg>
+
+</messages>
+

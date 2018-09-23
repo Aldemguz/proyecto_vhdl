@@ -1,0 +1,6 @@
+CommandLine
+C:\Xilinx\10.1\ISE\bin\nt\unwrapped\xst.exe -ise D:/Users/aldemaro/Documents/proyecto_tesis/registro_16bits/registro_16bits.ise -intstyle ise -ifn D:/Users/aldemaro/Documents/proyecto_tesis/registro_16bits/registro_16bits.xst -ofn D:/Users/aldemaro/Documents/proyecto_tesis/registro_16bits/registro_16bits.syr -finalclean 1
+s
+FormatString
+xst [-ifn <InputFile>] [-ofn <OutputFile>] [-ise <iseProjectFile>] [--quiet] [-intstyle <Style>] [--deb <DebugLevel>] [--finalclean <Clean>] [--PcubeFlow] [--globOptFlow] [--XstNtrc]
+s

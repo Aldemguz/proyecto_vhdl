@@ -1,0 +1,77 @@
+Determining compilation order of HDL files
+Analyzing VHDL file flipflopD_CE.vhd
+Restoring VHDL parse-tree ieee.std_logic_1164 from
+c:/xilinx/10.1/ise/vhdl/hdp/nt/ieee/std_logic_1164.vdb
+Restoring VHDL parse-tree std.standard from
+c:/xilinx/10.1/ise/vhdl/hdp/nt/std/standard.vdb
+Restoring VHDL parse-tree ieee.std_logic_arith from
+c:/xilinx/10.1/ise/vhdl/hdp/nt/ieee/std_logic_arith.vdb
+Restoring VHDL parse-tree ieee.std_logic_unsigned from
+c:/xilinx/10.1/ise/vhdl/hdp/nt/ieee/std_logic_unsigned.vdb
+Analyzing VHDL file flipflopD.vhd
+Analyzing VHDL file sticky.vhd
+Analyzing VHDL file bloque2_2.vhd
+Analyzing VHDL file bloque1.vhd
+Analyzing VHDL file registro_16bits.vhd
+Analyzing VHDL file mux2_2bits.vhd
+Analyzing VHDL file half_neuronas2.vhd
+Analyzing VHDL file neurona.vhd
+Analyzing VHDL file columna_4neuronas.vhd
+Analyzing VHDL file columna_4neuronas_tb.vhd
+Restoring VHDL parse-tree ieee.numeric_std from
+c:/xilinx/10.1/ise/vhdl/hdp/nt/ieee/numeric_std.vdb
+Saving VHDL parse-tree work.flipflopd_ce into
+d:/users/aldemaro/documents/proyecto_tesis/columna/isim/work/flipflopd_ce.vdb
+Saving VHDL parse-tree work.flipflopd into
+d:/users/aldemaro/documents/proyecto_tesis/columna/isim/work/flipflopd.vdb
+Saving VHDL parse-tree work.sticky into
+d:/users/aldemaro/documents/proyecto_tesis/columna/isim/work/sticky.vdb
+Saving VHDL parse-tree work.bloque2_2 into
+d:/users/aldemaro/documents/proyecto_tesis/columna/isim/work/bloque2_2.vdb
+Saving VHDL parse-tree work.bloque1 into
+d:/users/aldemaro/documents/proyecto_tesis/columna/isim/work/bloque1.vdb
+Saving VHDL parse-tree work.registro_16bits into
+d:/users/aldemaro/documents/proyecto_tesis/columna/isim/work/registro_16bits.vdb
+Saving VHDL parse-tree work.mux2_2bits into
+d:/users/aldemaro/documents/proyecto_tesis/columna/isim/work/mux2_2bits.vdb
+Saving VHDL parse-tree work.half_neuronas2 into
+d:/users/aldemaro/documents/proyecto_tesis/columna/isim/work/half_neuronas2.vdb
+Saving VHDL parse-tree work.neurona into
+d:/users/aldemaro/documents/proyecto_tesis/columna/isim/work/neurona.vdb
+Saving VHDL parse-tree work.columna_4neuronas into
+d:/users/aldemaro/documents/proyecto_tesis/columna/isim/work/columna_4neuronas.v
+db
+Saving VHDL parse-tree work.columna_4neuronas_tb into
+d:/users/aldemaro/documents/proyecto_tesis/columna/isim/work/columna_4neuronas_t
+b.vdb
+Starting static elaboration
+WARNING:HDLCompiler:746 - "N:/K.31/rtf/vhdl/src/ieee/numeric_std.vhd" Line 867.
+   Range is empty (null range)
+WARNING:HDLCompiler:746 - "N:/K.31/rtf/vhdl/src/ieee/numeric_std.vhd" Line 868.
+   Range is empty (null range)
+Completed static elaboration
+Fuse Memory Usage: 56224 Kb
+Fuse CPU Usage: 843 ms
+Using precompiled package standard from library std
+Using precompiled package std_logic_1164 from library ieee
+Using precompiled package std_logic_arith from library ieee
+Using precompiled package std_logic_unsigned from library ieee
+Using precompiled package numeric_std from library ieee
+Compiling architecture behavioral of entity mux2_2bits [mux2_2bits_default]
+Compiling architecture behavioral of entity flipflopd [flipflopd_default]
+Compiling architecture structural of entity bloque1 [bloque1_default]
+Compiling architecture dataflow of entity bloque2_2 [bloque2_2_default]
+Compiling architecture behavioral of entity flipflopd_ce [flipflopd_ce_default]
+Compiling architecture behavioral of entity sticky [sticky_default]
+Compiling architecture behavioral of entity half_neuronas2
+[half_neuronas2_default]
+Compiling architecture behavioral of entity registro_16bits
+[registro_16bits_default]
+Compiling architecture behavioral of entity neurona [neurona_default]
+Compiling architecture behavioral of entity columna_4neuronas
+[columna_4neuronas_default]
+Compiling architecture behavior of entity columna_4neuronas_tb
+Compiled 26 VHDL Units
+Built simulation executable columna_4neuronas_tb_isim_beh.exe
+Fuse Memory Usage: 57508 Kb
+Fuse CPU Usage: 936 ms

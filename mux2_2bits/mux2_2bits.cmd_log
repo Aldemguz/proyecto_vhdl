@@ -1,0 +1,2 @@
+xst -ise "D:/Users/aldemaro/Documents/proyecto_tesis/mux2_2bits/mux2_2bits.ise" -intstyle ise -ifn "D:/Users/aldemaro/Documents/proyecto_tesis/mux2_2bits/mux2_2bits.xst" -ofn "D:/Users/aldemaro/Documents/proyecto_tesis/mux2_2bits/mux2_2bits.syr"
+xst -ise "D:/Users/aldemaro/Documents/proyecto_tesis/mux2_2bits/mux2_2bits.ise" -intstyle ise -ifn "D:/Users/aldemaro/Documents/proyecto_tesis/mux2_2bits/mux2_2bits.xst" -ofn "D:/Users/aldemaro/Documents/proyecto_tesis/mux2_2bits/mux2_2bits.syr"
