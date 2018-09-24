@@ -4,13 +4,13 @@ Copyright (c) 1995-2008 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.22 secs
+Total CPU time to Xst completion: 0.25 secs
  
 --> Parameter xsthdpdir set to D:/Users/aldemaro/Documents/proyecto_tesis/columna/xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.22 secs
+Total CPU time to Xst completion: 0.25 secs
  
 --> Reading design: columna_4neuronas.prj
 
@@ -122,7 +122,8 @@ Architecture behavioral of Entity half_neuronas2 is up to date.
 Compiling vhdl file "D:/Users/aldemaro/Documents/proyecto_tesis/columna/registro_16bits.vhd" in Library work.
 Architecture behavioral of Entity registro_16bits is up to date.
 Compiling vhdl file "D:/Users/aldemaro/Documents/proyecto_tesis/columna/neurona.vhd" in Library work.
-Architecture behavioral of Entity neurona is up to date.
+Entity <neurona> compiled.
+Entity <neurona> (Architecture <behavioral>) compiled.
 Compiling vhdl file "D:/Users/aldemaro/Documents/proyecto_tesis/columna/columna_4neuronas.vhd" in Library work.
 Entity <columna_4neuronas> compiled.
 Entity <columna_4neuronas> (Architecture <behavioral>) compiled.
@@ -135,8 +136,6 @@ Analyzing hierarchy for entity <columna_4neuronas> in library <work> (architectu
 Analyzing hierarchy for entity <neurona> in library <work> (architecture <behavioral>).
 
 Analyzing hierarchy for entity <mux2_2bits> in library <work> (architecture <behavioral>).
-
-Analyzing hierarchy for entity <flipflopD> in library <work> (architecture <behavioral>).
 
 Analyzing hierarchy for entity <half_neuronas2> in library <work> (architecture <behavioral>).
 
@@ -165,14 +164,14 @@ Entity <neurona> analyzed. Unit <neurona> generated.
 Analyzing Entity <mux2_2bits> in library <work> (Architecture <behavioral>).
 Entity <mux2_2bits> analyzed. Unit <mux2_2bits> generated.
 
-Analyzing Entity <flipflopD> in library <work> (Architecture <behavioral>).
-Entity <flipflopD> analyzed. Unit <flipflopD> generated.
-
 Analyzing Entity <half_neuronas2> in library <work> (Architecture <behavioral>).
 Entity <half_neuronas2> analyzed. Unit <half_neuronas2> generated.
 
 Analyzing Entity <bloque1> in library <work> (Architecture <structural>).
 Entity <bloque1> analyzed. Unit <bloque1> generated.
+
+Analyzing Entity <flipflopD> in library <work> (Architecture <behavioral>).
+Entity <flipflopD> analyzed. Unit <flipflopD> generated.
 
 Analyzing Entity <bloque2_2> in library <work> (Architecture <dataflow>).
 Entity <bloque2_2> analyzed. Unit <bloque2_2> generated.
@@ -198,14 +197,6 @@ Synthesizing Unit <mux2_2bits>.
 Unit <mux2_2bits> synthesized.
 
 
-Synthesizing Unit <flipflopD>.
-    Related source file is "D:/Users/aldemaro/Documents/proyecto_tesis/columna/flipflopD.vhd".
-    Found 1-bit register for signal <temp>.
-    Summary:
-	inferred   1 D-type flip-flop(s).
-Unit <flipflopD> synthesized.
-
-
 Synthesizing Unit <registro_16bits>.
     Related source file is "D:/Users/aldemaro/Documents/proyecto_tesis/columna/registro_16bits.vhd".
     Found 16-bit register for signal <z_out>.
@@ -217,6 +208,14 @@ Unit <registro_16bits> synthesized.
 Synthesizing Unit <bloque2_2>.
     Related source file is "D:/Users/aldemaro/Documents/proyecto_tesis/columna/bloque2_2.vhd".
 Unit <bloque2_2> synthesized.
+
+
+Synthesizing Unit <flipflopD>.
+    Related source file is "D:/Users/aldemaro/Documents/proyecto_tesis/columna/flipflopD.vhd".
+    Found 1-bit register for signal <temp>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <flipflopD> synthesized.
 
 
 Synthesizing Unit <flipflopD_CE>.
@@ -246,7 +245,7 @@ Synthesizing Unit <neurona>.
     Related source file is "D:/Users/aldemaro/Documents/proyecto_tesis/columna/neurona.vhd".
 WARNING:Xst:653 - Signal <const_bip> is used but never assigned. This sourceless signal will be automatically connected to value 01.
     Found 16-bit tristate buffer for signal <z_out>.
-    Found 16-bit comparator equal for signal <rec_out$cmp_eq0000> created at line 99.
+    Found 16-bit comparator equal for signal <rec_out$cmp_eq0000> created at line 95.
     Found 16-bit tristate buffer for signal <x_sg>.
     Summary:
 	inferred   1 Comparator(s).
@@ -267,8 +266,8 @@ Unit <columna_4neuronas> synthesized.
 HDL Synthesis Report
 
 Macro Statistics
-# Registers                                            : 20
- 1-bit register                                        : 16
+# Registers                                            : 12
+ 1-bit register                                        : 8
  16-bit register                                       : 4
 # Comparators                                          : 4
  16-bit comparator equal                               : 4
@@ -287,8 +286,8 @@ Loading device for application Rf_Device from file '3s100e.nph' in environment C
 Advanced HDL Synthesis Report
 
 Macro Statistics
-# Registers                                            : 80
- Flip-Flops                                            : 80
+# Registers                                            : 72
+ Flip-Flops                                            : 72
 # Comparators                                          : 4
  16-bit comparator equal                               : 4
 
@@ -368,6 +367,9 @@ Optimizing unit <columna_4neuronas> ...
 Mapping all equations...
 Building and optimizing final netlist ...
 Found area constraint ratio of 100 (+ 5) on block columna_4neuronas, actual ratio is 2.
+FlipFlop n0/hn/b1/ff/temp has been replicated 2 time(s)
+FlipFlop n1/hn/b1/ff/temp has been replicated 2 time(s)
+FlipFlop n2/hn/b1/ff/temp has been replicated 2 time(s)
 
 Final Macro Processing ...
 
@@ -375,8 +377,8 @@ Final Macro Processing ...
 Final Register Report
 
 Macro Statistics
-# Registers                                            : 16
- Flip-Flops                                            : 16
+# Registers                                            : 14
+ Flip-Flops                                            : 14
 
 =========================================================================
 
@@ -405,13 +407,18 @@ Design Statistics
 # IOs                              : 48
 
 Cell Usage :
-# BELS                             : 32
+# BELS                             : 42
+#      GND                         : 1
 #      INV                         : 4
-#      LUT2                        : 4
-#      LUT3                        : 4
-#      LUT4                        : 20
-# FlipFlops/Latches                : 16
-#      FDC                         : 12
+#      LUT2                        : 3
+#      LUT2_L                      : 1
+#      LUT3                        : 2
+#      LUT4                        : 26
+#      LUT4_D                      : 1
+#      LUT4_L                      : 1
+#      MUXF5                       : 3
+# FlipFlops/Latches                : 14
+#      FDC                         : 10
 #      FDCE                        : 4
 # Clock Buffers                    : 1
 #      BUFGP                       : 1
@@ -426,9 +433,9 @@ Device utilization summary:
 
 Selected Device : 3s100ecp132-5 
 
- Number of Slices:                       18  out of    960     1%  
- Number of Slice Flip Flops:             16  out of   1920     0%  
- Number of 4 input LUTs:                 32  out of   1920     1%  
+ Number of Slices:                       20  out of    960     2%  
+ Number of Slice Flip Flops:             14  out of   1920     0%  
+ Number of 4 input LUTs:                 38  out of   1920     1%  
  Number of IOs:                          48
  Number of bonded IOBs:                  48  out of     83    57%  
  Number of GCLKs:                         1  out of     24     4%  
@@ -454,7 +461,7 @@ Clock Information:
 -----------------------------------+------------------------+-------+
 Clock Signal                       | Clock buffer(FF name)  | Load  |
 -----------------------------------+------------------------+-------+
-clk                                | BUFGP                  | 16    |
+clk                                | BUFGP                  | 14    |
 -----------------------------------+------------------------+-------+
 
 Asynchronous Control Signals Information:
@@ -462,17 +469,17 @@ Asynchronous Control Signals Information:
 -----------------------------------+------------------------+-------+
 Control Signal                     | Buffer(FF name)        | Load  |
 -----------------------------------+------------------------+-------+
-reset_in                           | IBUF                   | 16    |
+reset_in                           | IBUF                   | 14    |
 -----------------------------------+------------------------+-------+
 
 Timing Summary:
 ---------------
 Speed Grade: -5
 
-   Minimum period: 2.954ns (Maximum Frequency: 338.558MHz)
-   Minimum input arrival time before clock: 4.113ns
-   Maximum output required time after clock: 5.726ns
-   Maximum combinational path delay: 5.631ns
+   Minimum period: 3.040ns (Maximum Frequency: 328.904MHz)
+   Minimum input arrival time before clock: 4.895ns
+   Maximum output required time after clock: 7.002ns
+   Maximum combinational path delay: 8.458ns
 
 Timing Detail:
 --------------
@@ -480,10 +487,10 @@ All values displayed in nanoseconds (ns)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'clk'
-  Clock period: 2.954ns (frequency: 338.558MHz)
-  Total number of paths / destination ports: 29 / 17
+  Clock period: 3.040ns (frequency: 328.904MHz)
+  Total number of paths / destination ports: 50 / 17
 -------------------------------------------------------------------------
-Delay:               2.954ns (Levels of Logic = 1)
+Delay:               3.040ns (Levels of Logic = 1)
   Source:            n3/hn/b1/ff/temp (FF)
   Destination:       n3/hn/pegajoso/ffce/temp (FF)
   Source Clock:      clk rising
@@ -493,78 +500,84 @@ Delay:               2.954ns (Levels of Logic = 1)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDC:C->Q              3   0.514   0.451  n3/hn/b1/ff/temp (n3/hn/b1/ff/temp)
+     FDC:C->Q              5   0.514   0.538  n3/hn/b1/ff/temp (n3/hn/b1/ff/temp)
      INV:I->O             17   0.612   0.893  n3/der_out_inv1_INV_0 (n3/der_out_inv)
      FDCE:CE                   0.483          n3/hn/pegajoso/ffce/temp
     ----------------------------------------
-    Total                      2.954ns (1.609ns logic, 1.345ns route)
-                                       (54.5% logic, 45.5% route)
+    Total                      3.040ns (1.609ns logic, 1.431ns route)
+                                       (52.9% logic, 47.1% route)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
-  Total number of paths / destination ports: 15 / 7
+  Total number of paths / destination ports: 52 / 14
 -------------------------------------------------------------------------
-Offset:              4.113ns (Levels of Logic = 3)
-  Source:            reset_in (PAD)
+Offset:              4.895ns (Levels of Logic = 4)
+  Source:            proto_in<0> (PAD)
   Destination:       n3/hn/b1/ff/temp (FF)
   Destination Clock: clk rising
 
-  Data Path: reset_in to n3/hn/b1/ff/temp
+  Data Path: proto_in<0> to n3/hn/b1/ff/temp
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     IBUF:I->O            20   1.106   1.089  reset_in_IBUF (reset_in_IBUF)
-     LUT2:I0->O            1   0.612   0.426  n3/hn/b1/or_sg_SW0 (N21)
-     LUT4:I1->O            1   0.612   0.000  n3/hn/b1/or_sg (n3/hn/b1/or_sg)
-     FDC:D                     0.268          n3/hn/b1/ff/temp
+     IBUF:I->O             4   1.106   0.651  proto_in_0_IBUF (proto_in_0_IBUF)
+     LUT2:I0->O            2   0.612   0.532  n1/hn/b1/or_sg11_SW0 (N8)
+     LUT4_D:I0->O          4   0.612   0.502  n3/hn/b1/or_sg11 (N0)
+     LUT4:I3->O            3   0.612   0.000  n2/hn/b1/or_sg (n2/hn/b1/or_sg)
+     FDC:D                     0.268          n2/hn/b1/ff/temp
     ----------------------------------------
-    Total                      4.113ns (2.598ns logic, 1.515ns route)
-                                       (63.2% logic, 36.8% route)
+    Total                      4.895ns (3.210ns logic, 1.685ns route)
+                                       (65.6% logic, 34.4% route)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
-  Total number of paths / destination ports: 71 / 23
+  Total number of paths / destination ports: 83 / 23
 -------------------------------------------------------------------------
-Offset:              5.726ns (Levels of Logic = 2)
+Offset:              7.002ns (Levels of Logic = 4)
   Source:            n1/hn/b1/ff/temp (FF)
-  Destination:       z_out<15> (PAD)
+  Destination:       proto_out<1> (PAD)
   Source Clock:      clk rising
 
-  Data Path: n1/hn/b1/ff/temp to z_out<15>
+  Data Path: n1/hn/b1/ff/temp to proto_out<1>
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
      FDC:C->Q             19   0.514   1.074  n1/hn/b1/ff/temp (n1/hn/b1/ff/temp)
-     LUT4:I0->O            1   0.612   0.357  z2_sg<9>LogicTrst1 (z2_sg<9>)
-     OBUFT:I->O                3.169          z_out_9_OBUFT (z_out<9>)
+     LUT4:I0->O            1   0.612   0.000  n3/proto_out<1>221 (n3/proto_out<1>221)
+     MUXF5:I1->O           1   0.278   0.357  n3/proto_out<1>22_f5 (n3/proto_out<1>22)
+     MUXF5:S->O            1   0.641   0.357  n3/proto_out<1>24_f5 (proto_out_1_OBUF)
+     OBUF:I->O                 3.169          proto_out_1_OBUF (proto_out<1>)
     ----------------------------------------
-    Total                      5.726ns (4.295ns logic, 1.431ns route)
-                                       (75.0% logic, 25.0% route)
+    Total                      7.002ns (5.214ns logic, 1.788ns route)
+                                       (74.5% logic, 25.5% route)
 
 =========================================================================
 Timing constraint: Default path analysis
-  Total number of paths / destination ports: 16 / 16
+  Total number of paths / destination ports: 20 / 18
 -------------------------------------------------------------------------
-Delay:               5.631ns (Levels of Logic = 3)
-  Source:            x_in<15> (PAD)
-  Destination:       z_out<15> (PAD)
+Delay:               8.458ns (Levels of Logic = 6)
+  Source:            proto_in<0> (PAD)
+  Destination:       proto_out<0> (PAD)
 
-  Data Path: x_in<15> to z_out<15>
+  Data Path: proto_in<0> to proto_out<0>
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     IBUF:I->O             1   1.106   0.387  x_in_15_IBUF (x_in_15_IBUF)
-     LUT4:I2->O            1   0.612   0.357  z2_sg<15>LogicTrst1 (z2_sg<15>)
-     OBUFT:I->O                3.169          z_out_15_OBUFT (z_out<15>)
+     IBUF:I->O             4   1.106   0.651  proto_in_0_IBUF (proto_in_0_IBUF)
+     LUT2:I0->O            2   0.612   0.532  n1/hn/b1/or_sg11_SW0 (N8)
+     LUT4_D:I0->O          4   0.612   0.529  n3/hn/b1/or_sg11 (N0)
+     LUT4:I2->O            1   0.612   0.000  n3/proto_out<0>11 (n3/proto_out<0>1)
+     MUXF5:I1->O           1   0.278   0.357  n3/proto_out<0>1_f5 (proto_out_0_OBUF)
+     OBUF:I->O                 3.169          proto_out_0_OBUF (proto_out<0>)
     ----------------------------------------
-    Total                      5.631ns (4.887ns logic, 0.744ns route)
-                                       (86.8% logic, 13.2% route)
+    Total                      8.458ns (6.389ns logic, 2.069ns route)
+                                       (75.5% logic, 24.5% route)
 
 =========================================================================
 
 
-Total REAL time to Xst completion: 7.00 secs
-Total CPU time to Xst completion: 7.08 secs
+Total REAL time to Xst completion: 8.00 secs
+Total CPU time to Xst completion: 7.59 secs
  
 --> 
 

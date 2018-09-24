@@ -86,7 +86,7 @@ BEGIN
 		wait for 10 ns;
 		clk<='0';
 		wait for 10 ns;
-		D<='1';
+		D<='U';
 		reset_in<='0';
 		clk<='1';
 		wait for 10 ns;

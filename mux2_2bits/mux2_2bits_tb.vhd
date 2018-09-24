@@ -82,7 +82,7 @@ BEGIN
 		
 		x_in<="00";
 		y_in<="11";
-		sel_in<='0';
+		sel_in<='Z';
 		wait for 10 ns;
 		x_in<="00";
 		y_in<="11";

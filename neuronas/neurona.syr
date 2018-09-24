@@ -1,12 +1,12 @@
 Release 10.1 - xst K.31 (nt)
 Copyright (c) 1995-2008 Xilinx, Inc.  All rights reserved.
---> Parameter TMPDIR set to D:/Users/aldemaro/Documents/proyecto_tesis/neuronas/xst/projnav.tmp
+--> Parameter TMPDIR set to D:/Users/aldemaro/Documents/proyecto_tesis/neuronas_entrada/neuronas/xst/projnav.tmp
 
 
 Total REAL time to Xst completion: 0.00 secs
 Total CPU time to Xst completion: 0.23 secs
  
---> Parameter xsthdpdir set to D:/Users/aldemaro/Documents/proyecto_tesis/neuronas/xst
+--> Parameter xsthdpdir set to D:/Users/aldemaro/Documents/proyecto_tesis/neuronas_entrada/neuronas/xst
 
 
 Total REAL time to Xst completion: 0.00 secs
@@ -105,23 +105,23 @@ Slice Utilization Ratio Delta      : 5
 =========================================================================
 *                          HDL Compilation                              *
 =========================================================================
-Compiling vhdl file "D:/Users/aldemaro/Documents/proyecto_tesis/neuronas/flipflopD_CE.vhd" in Library work.
+Compiling vhdl file "D:/Users/aldemaro/Documents/proyecto_tesis/neuronas_entrada/neuronas/flipflopD_CE.vhd" in Library work.
 Architecture behavioral of Entity flipflopd_ce is up to date.
-Compiling vhdl file "D:/Users/aldemaro/Documents/proyecto_tesis/neuronas/flipflopD.vhd" in Library work.
+Compiling vhdl file "D:/Users/aldemaro/Documents/proyecto_tesis/neuronas_entrada/neuronas/flipflopD.vhd" in Library work.
 Architecture behavioral of Entity flipflopd is up to date.
-Compiling vhdl file "D:/Users/aldemaro/Documents/proyecto_tesis/neuronas/bloque1.vhd" in Library work.
+Compiling vhdl file "D:/Users/aldemaro/Documents/proyecto_tesis/neuronas_entrada/neuronas/bloque1.vhd" in Library work.
 Architecture structural of Entity bloque1 is up to date.
-Compiling vhdl file "D:/Users/aldemaro/Documents/proyecto_tesis/neuronas/bloque2_2.vhd" in Library work.
+Compiling vhdl file "D:/Users/aldemaro/Documents/proyecto_tesis/neuronas_entrada/neuronas/bloque2_2.vhd" in Library work.
 Architecture dataflow of Entity bloque2_2 is up to date.
-Compiling vhdl file "D:/Users/aldemaro/Documents/proyecto_tesis/neuronas/sticky.vhd" in Library work.
+Compiling vhdl file "D:/Users/aldemaro/Documents/proyecto_tesis/neuronas_entrada/neuronas/sticky.vhd" in Library work.
 Architecture behavioral of Entity sticky is up to date.
-Compiling vhdl file "D:/Users/aldemaro/Documents/proyecto_tesis/neuronas/mux2_2bits.vhd" in Library work.
+Compiling vhdl file "D:/Users/aldemaro/Documents/proyecto_tesis/neuronas_entrada/neuronas/mux2_2bits.vhd" in Library work.
 Architecture behavioral of Entity mux2_2bits is up to date.
-Compiling vhdl file "D:/Users/aldemaro/Documents/proyecto_tesis/neuronas/half_neuronas2.vhd" in Library work.
+Compiling vhdl file "D:/Users/aldemaro/Documents/proyecto_tesis/neuronas_entrada/neuronas/half_neuronas2.vhd" in Library work.
 Architecture behavioral of Entity half_neuronas2 is up to date.
-Compiling vhdl file "D:/Users/aldemaro/Documents/proyecto_tesis/neuronas/registro_16bits.vhd" in Library work.
+Compiling vhdl file "D:/Users/aldemaro/Documents/proyecto_tesis/neuronas_entrada/neuronas/registro_16bits.vhd" in Library work.
 Architecture behavioral of Entity registro_16bits is up to date.
-Compiling vhdl file "D:/Users/aldemaro/Documents/proyecto_tesis/neuronas/neurona.vhd" in Library work.
+Compiling vhdl file "D:/Users/aldemaro/Documents/proyecto_tesis/neuronas_entrada/neuronas/neurona.vhd" in Library work.
 Entity <neurona> compiled.
 Entity <neurona> (Architecture <behavioral>) compiled.
 
@@ -187,12 +187,12 @@ Entity <registro_16bits> analyzed. Unit <registro_16bits> generated.
 Performing bidirectional port resolution...
 
 Synthesizing Unit <mux2_2bits>.
-    Related source file is "D:/Users/aldemaro/Documents/proyecto_tesis/neuronas/mux2_2bits.vhd".
+    Related source file is "D:/Users/aldemaro/Documents/proyecto_tesis/neuronas_entrada/neuronas/mux2_2bits.vhd".
 Unit <mux2_2bits> synthesized.
 
 
 Synthesizing Unit <flipflopD>.
-    Related source file is "D:/Users/aldemaro/Documents/proyecto_tesis/neuronas/flipflopD.vhd".
+    Related source file is "D:/Users/aldemaro/Documents/proyecto_tesis/neuronas_entrada/neuronas/flipflopD.vhd".
     Found 1-bit register for signal <temp>.
     Summary:
 	inferred   1 D-type flip-flop(s).
@@ -200,7 +200,7 @@ Unit <flipflopD> synthesized.
 
 
 Synthesizing Unit <registro_16bits>.
-    Related source file is "D:/Users/aldemaro/Documents/proyecto_tesis/neuronas/registro_16bits.vhd".
+    Related source file is "D:/Users/aldemaro/Documents/proyecto_tesis/neuronas_entrada/neuronas/registro_16bits.vhd".
     Found 16-bit register for signal <z_out>.
     Summary:
 	inferred  16 D-type flip-flop(s).
@@ -208,12 +208,12 @@ Unit <registro_16bits> synthesized.
 
 
 Synthesizing Unit <bloque2_2>.
-    Related source file is "D:/Users/aldemaro/Documents/proyecto_tesis/neuronas/bloque2_2.vhd".
+    Related source file is "D:/Users/aldemaro/Documents/proyecto_tesis/neuronas_entrada/neuronas/bloque2_2.vhd".
 Unit <bloque2_2> synthesized.
 
 
 Synthesizing Unit <flipflopD_CE>.
-    Related source file is "D:/Users/aldemaro/Documents/proyecto_tesis/neuronas/flipflopD_CE.vhd".
+    Related source file is "D:/Users/aldemaro/Documents/proyecto_tesis/neuronas_entrada/neuronas/flipflopD_CE.vhd".
     Found 1-bit register for signal <temp>.
     Summary:
 	inferred   1 D-type flip-flop(s).
@@ -221,30 +221,29 @@ Unit <flipflopD_CE> synthesized.
 
 
 Synthesizing Unit <bloque1>.
-    Related source file is "D:/Users/aldemaro/Documents/proyecto_tesis/neuronas/bloque1.vhd".
+    Related source file is "D:/Users/aldemaro/Documents/proyecto_tesis/neuronas_entrada/neuronas/bloque1.vhd".
 Unit <bloque1> synthesized.
 
 
 Synthesizing Unit <sticky>.
-    Related source file is "D:/Users/aldemaro/Documents/proyecto_tesis/neuronas/sticky.vhd".
+    Related source file is "D:/Users/aldemaro/Documents/proyecto_tesis/neuronas_entrada/neuronas/sticky.vhd".
 Unit <sticky> synthesized.
 
 
 Synthesizing Unit <half_neuronas2>.
-    Related source file is "D:/Users/aldemaro/Documents/proyecto_tesis/neuronas/half_neuronas2.vhd".
+    Related source file is "D:/Users/aldemaro/Documents/proyecto_tesis/neuronas_entrada/neuronas/half_neuronas2.vhd".
 Unit <half_neuronas2> synthesized.
 
 
 Synthesizing Unit <neurona>.
-    Related source file is "D:/Users/aldemaro/Documents/proyecto_tesis/neuronas/neurona.vhd".
+    Related source file is "D:/Users/aldemaro/Documents/proyecto_tesis/neuronas_entrada/neuronas/neurona.vhd".
 WARNING:Xst:653 - Signal <const_bip> is used but never assigned. This sourceless signal will be automatically connected to value 01.
-    Found 2-bit tristate buffer for signal <proto_out>.
     Found 16-bit tristate buffer for signal <z_out>.
-    Found 16-bit comparator equal for signal <rec_out$cmp_eq0000> created at line 101.
+    Found 16-bit comparator equal for signal <rec_out$cmp_eq0000> created at line 95.
     Found 16-bit tristate buffer for signal <x_sg>.
     Summary:
 	inferred   1 Comparator(s).
-	inferred  34 Tristate(s).
+	inferred  32 Tristate(s).
 Unit <neurona> synthesized.
 
 
@@ -257,9 +256,8 @@ Macro Statistics
  16-bit register                                       : 1
 # Comparators                                          : 1
  16-bit comparator equal                               : 1
-# Tristates                                            : 3
+# Tristates                                            : 2
  16-bit tristate buffer                                : 2
- 2-bit tristate buffer                                 : 1
 
 =========================================================================
 
@@ -290,7 +288,6 @@ Optimizing unit <neurona> ...
 Mapping all equations...
 Building and optimizing final netlist ...
 Found area constraint ratio of 100 (+ 5) on block neurona, actual ratio is 1.
-FlipFlop hn/b1/ff/temp has been replicated 1 time(s) to handle iob=true attribute.
 
 Final Macro Processing ...
 
@@ -298,8 +295,8 @@ Final Macro Processing ...
 Final Register Report
 
 Macro Statistics
-# Registers                                            : 21
- Flip-Flops                                            : 21
+# Registers                                            : 20
+ Flip-Flops                                            : 20
 
 =========================================================================
 
@@ -328,23 +325,23 @@ Design Statistics
 # IOs                              : 43
 
 Cell Usage :
-# BELS                             : 39
+# BELS                             : 42
 #      GND                         : 1
-#      INV                         : 2
-#      LUT2                        : 17
-#      LUT3                        : 1
-#      LUT4                        : 9
+#      INV                         : 1
+#      LUT2                        : 18
+#      LUT3                        : 3
+#      LUT4                        : 10
 #      MUXCY                       : 8
 #      VCC                         : 1
-# FlipFlops/Latches                : 21
-#      FDC                         : 2
-#      FDCE                        : 19
+# FlipFlops/Latches                : 20
+#      FDC                         : 3
+#      FDCE                        : 17
 # Clock Buffers                    : 1
 #      BUFGP                       : 1
 # IO Buffers                       : 42
 #      IBUF                        : 21
-#      OBUF                        : 3
-#      OBUFT                       : 18
+#      OBUF                        : 5
+#      OBUFT                       : 16
 =========================================================================
 
 Device utilization summary:
@@ -352,12 +349,11 @@ Device utilization summary:
 
 Selected Device : 3s100ecp132-5 
 
- Number of Slices:                       15  out of    960     1%  
- Number of Slice Flip Flops:             18  out of   1920     0%  
- Number of 4 input LUTs:                 29  out of   1920     1%  
+ Number of Slices:                       17  out of    960     1%  
+ Number of Slice Flip Flops:             20  out of   1920     1%  
+ Number of 4 input LUTs:                 32  out of   1920     1%  
  Number of IOs:                          43
  Number of bonded IOBs:                  43  out of     83    51%  
-    IOB Flip Flops:                       3
  Number of GCLKs:                         1  out of     24     4%  
 
 ---------------------------
@@ -381,7 +377,7 @@ Clock Information:
 -----------------------------------+------------------------+-------+
 Clock Signal                       | Clock buffer(FF name)  | Load  |
 -----------------------------------+------------------------+-------+
-clk                                | BUFGP                  | 21    |
+clk                                | BUFGP                  | 20    |
 -----------------------------------+------------------------+-------+
 
 Asynchronous Control Signals Information:
@@ -389,15 +385,15 @@ Asynchronous Control Signals Information:
 -----------------------------------+------------------------+-------+
 Control Signal                     | Buffer(FF name)        | Load  |
 -----------------------------------+------------------------+-------+
-reset_in                           | IBUF                   | 21    |
+reset_in                           | IBUF                   | 20    |
 -----------------------------------+------------------------+-------+
 
 Timing Summary:
 ---------------
 Speed Grade: -5
 
-   Minimum period: 2.937ns (Maximum Frequency: 340.501MHz)
-   Minimum input arrival time before clock: 5.469ns
+   Minimum period: 3.071ns (Maximum Frequency: 325.627MHz)
+   Minimum input arrival time before clock: 5.229ns
    Maximum output required time after clock: 6.274ns
    Maximum combinational path delay: 6.877ns
 
@@ -407,50 +403,50 @@ All values displayed in nanoseconds (ns)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'clk'
-  Clock period: 2.937ns (frequency: 340.501MHz)
-  Total number of paths / destination ports: 17 / 17
+  Clock period: 3.071ns (frequency: 325.627MHz)
+  Total number of paths / destination ports: 18 / 18
 -------------------------------------------------------------------------
-Delay:               2.937ns (Levels of Logic = 1)
+Delay:               3.071ns (Levels of Logic = 1)
   Source:            hn/b1/ff/temp (FF)
-  Destination:       latch/z_out_15 (FF)
+  Destination:       hn/pegajoso/ffce/temp (FF)
   Source Clock:      clk rising
   Destination Clock: clk rising
 
-  Data Path: hn/b1/ff/temp to latch/z_out_15
+  Data Path: hn/b1/ff/temp to hn/pegajoso/ffce/temp
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDCE:C->Q             2   0.514   0.449  hn/b1/ff/temp (hn/b1/ff/temp)
-     LUT2:I1->O           16   0.612   0.879  hn/enable_out1 (enable_sg)
-     FDCE:CE                   0.483          latch/z_out_0
+     FDC:C->Q              6   0.514   0.569  hn/b1/ff/temp (hn/b1/ff/temp)
+     INV:I->O             17   0.612   0.893  der_out_inv1_INV_0 (der_out_inv)
+     FDCE:CE                   0.483          hn/pegajoso/ffce/temp
     ----------------------------------------
-    Total                      2.937ns (1.609ns logic, 1.328ns route)
-                                       (54.8% logic, 45.2% route)
+    Total                      3.071ns (1.609ns logic, 1.462ns route)
+                                       (52.4% logic, 47.6% route)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
-  Total number of paths / destination ports: 109 / 37
+  Total number of paths / destination ports: 105 / 36
 -------------------------------------------------------------------------
-Offset:              5.469ns (Levels of Logic = 3)
-  Source:            reset_in (PAD)
+Offset:              5.229ns (Levels of Logic = 3)
+  Source:            clack_in (PAD)
   Destination:       latch/z_out_15 (FF)
   Destination Clock: clk rising
 
-  Data Path: reset_in to latch/z_out_15
+  Data Path: clack_in to latch/z_out_15
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     IBUF:I->O            23   1.106   1.174  reset_in_IBUF (reset_in_IBUF)
-     LUT4:I0->O            3   0.612   0.603  hn/b1/or_sg11 (N11)
-     LUT2:I0->O           16   0.612   0.879  hn/enable_out1 (enable_sg)
+     IBUF:I->O            21   1.106   1.028  clack_in_IBUF (clack_in_IBUF)
+     LUT2:I1->O            1   0.612   0.509  hn/enable_out_SW0 (N4)
+     LUT4:I0->O           16   0.612   0.879  hn/enable_out (enable_sg)
      FDCE:CE                   0.483          latch/z_out_0
     ----------------------------------------
-    Total                      5.469ns (2.813ns logic, 2.656ns route)
-                                       (51.4% logic, 48.6% route)
+    Total                      5.229ns (2.813ns logic, 2.416ns route)
+                                       (53.8% logic, 46.2% route)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
-  Total number of paths / destination ports: 36 / 21
+  Total number of paths / destination ports: 38 / 21
 -------------------------------------------------------------------------
 Offset:              6.274ns (Levels of Logic = 10)
   Source:            latch/z_out_0 (FF)
@@ -507,7 +503,7 @@ Delay:               6.877ns (Levels of Logic = 11)
 
 
 Total REAL time to Xst completion: 7.00 secs
-Total CPU time to Xst completion: 7.02 secs
+Total CPU time to Xst completion: 6.95 secs
  
 --> 
 

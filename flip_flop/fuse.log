@@ -33,4 +33,4 @@ Compiling architecture behavior of entity flipflopd_tb
 Compiled 8 VHDL Units
 Built simulation executable flipflopD_tb_isim_beh.exe
 Fuse Memory Usage: 57508 Kb
-Fuse CPU Usage: 890 ms
+Fuse CPU Usage: 843 ms

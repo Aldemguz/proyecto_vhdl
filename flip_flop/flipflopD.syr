@@ -4,13 +4,13 @@ Copyright (c) 1995-2008 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.27 secs
+Total CPU time to Xst completion: 0.23 secs
  
 --> Parameter xsthdpdir set to D:/Users/aldemaro/Documents/proyecto_tesis/flip_flop/xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.27 secs
+Total CPU time to Xst completion: 0.23 secs
  
 --> Reading design: flipflopD.prj
 
@@ -313,8 +313,8 @@ Offset:              4.040ns (Levels of Logic = 1)
 =========================================================================
 
 
-Total REAL time to Xst completion: 7.00 secs
-Total CPU time to Xst completion: 7.09 secs
+Total REAL time to Xst completion: 6.00 secs
+Total CPU time to Xst completion: 6.30 secs
  
 --> 
 

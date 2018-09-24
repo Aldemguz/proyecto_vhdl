@@ -1,5 +1,5 @@
-set -tmpdir "D:/Users/aldemaro/Documents/proyecto_tesis/neuronas/xst/projnav.tmp"
-set -xsthdpdir "D:/Users/aldemaro/Documents/proyecto_tesis/neuronas/xst"
+set -tmpdir "D:/Users/aldemaro/Documents/proyecto_tesis/neuronas_entrada/neuronas/xst/projnav.tmp"
+set -xsthdpdir "D:/Users/aldemaro/Documents/proyecto_tesis/neuronas_entrada/neuronas/xst"
 run
 -ifn neurona.prj
 -ifmt mixed

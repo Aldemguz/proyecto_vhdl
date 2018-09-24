@@ -118,7 +118,7 @@ BEGIN
 		clk<='0';
 		wait for 10 ns;
 		x_in<="0000000000000011";
-      proto_in<="01";
+      proto_in<="10";
       izq_in<='1';
 		clack_in<='0';
       reset_in<='0';
@@ -126,7 +126,7 @@ BEGIN
 		wait for 10 ns;
 		clk<='0';
 		wait for 10 ns;
-		proto_in<="10";
+		proto_in<="00";
       reset_in<='1';
 		clk<='1';
 		wait for 10 ns;
@@ -142,9 +142,23 @@ BEGIN
 		clk<='0';
 		wait for 10 ns;
 		x_in<="0000000000000101";
-      proto_in<="11";
+      proto_in<="01";
       izq_in<='1';
 		clack_in<='0';
+      reset_in<='0';
+		clk<='1';
+		wait for 10 ns;
+		clk<='0';
+		wait for 10 ns;
+		reset_in<='1';
+		clk<='1';
+		wait for 10 ns;
+		clk<='0';
+		wait for 10 ns;
+		x_in<="0000000000000101";
+      proto_in<="01";
+      izq_in<='1';
+		clack_in<='1';
       reset_in<='0';
 		clk<='1';
 		wait for 10 ns;
@@ -154,11 +168,7 @@ BEGIN
 		wait for 10 ns;
 		clk<='0';
 		wait for 10 ns;
-		clk<='1';
-		wait for 10 ns;
-		clk<='0';
-		wait for 10 ns;
-
+		
       wait;
    end process;
 

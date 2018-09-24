@@ -33,8 +33,8 @@ SIGNAL_ORDER_BEGIN
 /neurona_tb/der_out
 /neurona_tb/clack_out
 /neurona_tb/proto_out
-/neurona_tb/z_out
 /neurona_tb/uut/latch/z_out
+/neurona_tb/z_out
 SIGNAL_ORDER_END
 DIFFERENTIAL_CLKS_BEGIN
 DIFFERENTIAL_CLKS_END
@@ -71,12 +71,12 @@ SIGPROPS_BEGIN
 /neurona_tb/proto_out
 1
 2
-/neurona_tb/z_out
-1
-0
 /neurona_tb/uut/latch/z_out
 1
 2
+/neurona_tb/z_out
+1
+0
 SIGPROPS_END
 GROUPS_HIER_BEGIN
 GROUPS_HIER_END

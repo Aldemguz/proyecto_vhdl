@@ -847,7 +847,6 @@ proc restore { { project_dir "" } } {
       "neurona.vhd" 
       "neurona_tb.vhd" 
       "registro_16bits.vhd" 
-      "registro_16bits_SE.vhd" 
       "sticky.vhd" 
       "sticky_tb.vhd"}
 

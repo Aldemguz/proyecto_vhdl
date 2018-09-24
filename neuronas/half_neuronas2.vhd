@@ -29,6 +29,7 @@ use IEEE.STD_LOGIC_UNSIGNED.ALL;
 
 entity half_neuronas2 is
 	Port (  proto_in : in  STD_LOGIC_VECTOR (1 downto 0);
+			  clack_in : in STD_LOGIC;
            izq_in : in  STD_LOGIC;
            reset_in : in  STD_LOGIC;
            clk : in  STD_LOGIC;
@@ -43,6 +44,7 @@ architecture Behavioral of half_neuronas2 is
 
 component bloque1
     Port ( enable_in : in  STD_LOGIC;
+			  clack_in : in STD_LOGIC;
            clk : in  STD_LOGIC;
            reset_in : in  STD_LOGIC;
            der_out : out  STD_LOGIC);
@@ -68,7 +70,7 @@ end component;
 signal enable_sg,der_sg,clack_sg: std_logic:='0';
 begin
 
-b1 : bloque1 port map(enable_sg,clk,reset_in,der_sg);
+b1 : bloque1 port map(enable_sg,clack_in,clk,reset_in,der_sg);
 b2 : bloque2_2 port map(der_sg,izq_in,proto_in,reset_in,clack_sg,enable_sg);
 pegajoso : sticky port map(clack_sg,der_sg,clk,reset_in,clack_out);
 enable_out<=enable_sg when reset_in='0' else '0';

@@ -111,7 +111,7 @@ LAB12:    xsi_set_current_line(89, ng0);
     t5 = *((char **)t4);
     t6 = (t5 + 40U);
     t7 = *((char **)t6);
-    *((unsigned char *)t7) = (unsigned char)3;
+    *((unsigned char *)t7) = (unsigned char)0;
     xsi_driver_first_trans_fast(t2);
     xsi_set_current_line(90, ng0);
     t2 = (t0 + 1672);

@@ -2,13 +2,13 @@ Command line:
    ./flipflopD_tb_isim_beh.exe
      -intstyle  ise
      -ipchost  localhost
-     -ipcport  1761
+     -ipcport  1059
 
-Sat Sep 22 12:02:52 2018
+Sun Sep 23 07:48:23 2018
 
-Total Line Count : 41
+Total Line Count : 43
 
- Elaboration Time: 0.03125 sec
+ Elaboration Time: 0 sec
 
  Current Memory Usage: 141.66 Meg
 
@@ -29,9 +29,9 @@ isimrun 1000 ns
 Simulator is doing circuit initialization process.
 Finished circuit initialization process.
 
- Total Simulation Time: 0.109375 sec
+ Total Simulation Time: 0.0625 sec
 
- Current Memory Usage: 152.146 Meg
+ Current Memory Usage: 152.158 Meg
 
-Sat Sep 22 12:03:10 2018
+Sun Sep 23 07:48:52 2018
 

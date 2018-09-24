@@ -60,11 +60,12 @@ signal rec0_sg,rec1_sg,rec2_sg,rec3_sg,c0_sg,c1_sg,c2_sg: std_logic :='0';
 signal p0_sg,p1_sg,p2_sg: std_logic_vector(1 downto 0):="00";
 signal z0_sg,z1_sg,z2_sg: std_logic_vector(15 downto 0):=(others=>'0');
 begin
-
+	--			neurona (x_in,proto_in,izq_in,clack_in,clk,reset_in,rec_out,der_out,clack_out,proto_out,z_out);
 n0 : neurona port map(x_in,proto_in,izq_in(0),clack_in,clk,reset_in,rec0_sg,der_out(0),c0_sg,p0_sg,z0_sg);
 n1 : neurona port map(z0_sg,p0_sg,izq_in(1),c0_sg,clk,reset_in,rec1_sg,der_out(1),c1_sg,p1_sg,z1_sg);
 n2 : neurona port map(z1_sg,p1_sg,izq_in(2),c1_sg,clk,reset_in,rec2_sg,der_out(2),c2_sg,p2_sg,z2_sg);
 n3 : neurona port map(z2_sg,p2_sg,izq_in(3),c2_sg,clk,reset_in,rec3_sg,der_out(3),clack_out,proto_out,z_out);
+
 
 
 end Behavioral;

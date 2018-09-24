@@ -2,47 +2,50 @@ Command line:
    ./columna_4neuronas_tb_isim_beh.exe
      -intstyle  ise
      -ipchost  localhost
-     -ipcport  1393
+     -ipcport  1398
 
-Sun Sep 23 01:27:09 2018
+Mon Sep 24 12:53:23 2018
 
-Total Line Count : 120
+Total Line Count : 118
 
  Elaboration Time: 0.015625 sec
 
  Current Memory Usage: 141.664 Meg
 
- Total Signals          : 353
- Total Nets             : 321
- Total Signal Drivers   : 110
- Total Blocks           : 50
- Total Primitive Blocks : 28
- Total Processes        : 105
+ Total Signals          : 313
+ Total Nets             : 305
+ Total Signal Drivers   : 94
+ Total Blocks           : 42
+ Total Primitive Blocks : 20
+ Total Processes        : 89
  Total Traceable Variables  : 15
- Total Scalar Nets and Variables : 822
-ntrace select -o on -n /columna_4neuronas_tb/x_in 
-ntrace select -o on -n /columna_4neuronas_tb/proto_in 
+ Total Scalar Nets and Variables : 806
 ntrace select -o on -n /columna_4neuronas_tb/clack_in 
 ntrace select -o on -n /columna_4neuronas_tb/izq_in 
-ntrace select -o on -n /columna_4neuronas_tb/clk 
 ntrace select -o on -n /columna_4neuronas_tb/reset_in 
 ntrace select -o on -n /columna_4neuronas_tb/der_out 
-ntrace select -o on -n /columna_4neuronas_tb/proto_out 
 ntrace select -o on -n /columna_4neuronas_tb/clack_out 
+ntrace select -o on -n /columna_4neuronas_tb/clk 
+ntrace select -o on -n /columna_4neuronas_tb/x_in 
+ntrace select -o on -n /columna_4neuronas_tb/proto_in 
+ntrace select -o on -n /columna_4neuronas_tb/proto_out 
 ntrace select -o on -n /columna_4neuronas_tb/uut/n0/latch/z_out 
-ntrace select -o on -n /columna_4neuronas_tb/uut/n1/x_in 
-ntrace select -o on -n /columna_4neuronas_tb/uut/n1/latch/enable_in 
-ntrace select -o on -n /columna_4neuronas_tb/uut/n1/proto_in 
+ntrace select -o on -n /columna_4neuronas_tb/uut/n0/clack_out 
 ntrace select -o on -n /columna_4neuronas_tb/uut/n1/latch/z_out 
+ntrace select -o on -n /columna_4neuronas_tb/uut/n1/clack_out 
+ntrace select -o on -n /columna_4neuronas_tb/uut/n2/latch/z_out 
+ntrace select -o on -n /columna_4neuronas_tb/uut/n2/clack_out 
+ntrace select -o on -n /columna_4neuronas_tb/uut/n3/latch/z_out 
+ntrace select -o on -n /columna_4neuronas_tb/uut/n3/clack_out 
 ntrace select -o on -n /columna_4neuronas_tb/z_out 
 ntrace start 
 isimrun 1000 ns 
 Simulator is doing circuit initialization process.
 Finished circuit initialization process.
 
- Total Simulation Time: 0.09375 sec
+ Total Simulation Time: 0.109375 sec
 
- Current Memory Usage: 151.114 Meg
+ Current Memory Usage: 152.162 Meg
 
-Sun Sep 23 01:29:24 2018
+Mon Sep 24 15:30:17 2018
 

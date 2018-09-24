@@ -45,6 +45,7 @@ architecture Behavioral of neurona is
 
 component half_neuronas2
 	Port (  proto_in : in  STD_LOGIC_VECTOR (1 downto 0);
+			  clack_in : in STD_LOGIC;
            izq_in : in  STD_LOGIC;
            reset_in : in  STD_LOGIC;
            clk : in  STD_LOGIC;
@@ -59,13 +60,6 @@ component registro_16bits
            enable_in : in  STD_LOGIC;
            reset_in : in  STD_LOGIC;
            clk : in  STD_LOGIC;
-           z_out : out  STD_LOGIC_VECTOR (15 downto 0));
-end component;
-
-component registro_16bits_SE
-    Port ( x_in : in  STD_LOGIC_VECTOR (15 downto 0);
-           clk : in  STD_LOGIC;
-           reset_in : in  STD_LOGIC;
            z_out : out  STD_LOGIC_VECTOR (15 downto 0));
 end component;
 
@@ -95,8 +89,8 @@ x_sg<= x_in when clack_in='0' else "ZZZZZZZZZZZZZZZZ";
 mux : mux2_2bits port map(proto_in,const_bip,clack_in,mux_sg);
 p0_temp: flipflopD port map(proto_in(0),p0_sg,clk,reset_in);
 p1_temp: flipflopD port map(proto_in(1),p1_sg,clk,reset_in);
-proto_out<=p1_sg & p0_sg when der_sg='1' else "ZZ";
-hn : half_neuronas2 port map(mux_sg,izq_in,reset_in,clk,der_sg,clack_out,enable_sg);
+proto_out<=p1_sg & p0_sg when der_sg='1' and clack_in='0' else "00";
+hn : half_neuronas2 port map(mux_sg,clack_in,izq_in,reset_in,clk,der_sg,clack_out,enable_sg);
 latch : registro_16bits port map(x_sg,enable_sg,reset_in,clk,z_sg);
 rec_out<='1' when z_sg=x_in else '0';
 z_out<= x_in when der_sg='1' else "ZZZZZZZZZZZZZZZZ";

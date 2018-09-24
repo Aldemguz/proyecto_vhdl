@@ -134,6 +134,7 @@ BEGIN
 		wait for 10 ns;
 		clk<='0';
 		wait for 10 ns;
+		x_in<="0000000000001011";
 		clk<='1';
 		wait for 10 ns;
 		clk<='0';

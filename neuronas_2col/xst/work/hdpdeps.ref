@@ -1,0 +1,81 @@
+V3 39
+FL D:/Users/aldemaro/Documents/proyecto_tesis/neuronas_2col/bloque1.vhd 2018/09/23.15:38:12 K.31
+EN work/bloque1 1537798985 \
+      FL D:/Users/aldemaro/Documents/proyecto_tesis/neuronas_2col/bloque1.vhd \
+      PB ieee/std_logic_1164 1200023565 PB ieee/std_logic_arith 1200023566 \
+      PB ieee/STD_LOGIC_UNSIGNED 1200023567
+AR work/bloque1/Structural 1537798986 \
+      FL D:/Users/aldemaro/Documents/proyecto_tesis/neuronas_2col/bloque1.vhd \
+      EN work/bloque1 1537798985 CP flipflopD
+FL D:/Users/aldemaro/Documents/proyecto_tesis/neuronas_2col/bloque2_2.vhd 2018/09/23.13:56:41 K.31
+EN work/bloque2_2 1537798987 \
+      FL D:/Users/aldemaro/Documents/proyecto_tesis/neuronas_2col/bloque2_2.vhd \
+      PB ieee/std_logic_1164 1200023565 PB ieee/std_logic_arith 1200023566 \
+      PB ieee/STD_LOGIC_UNSIGNED 1200023567
+AR work/bloque2_2/Dataflow 1537798988 \
+      FL D:/Users/aldemaro/Documents/proyecto_tesis/neuronas_2col/bloque2_2.vhd \
+      EN work/bloque2_2 1537798987
+FL D:/Users/aldemaro/Documents/proyecto_tesis/neuronas_2col/flipflopD.vhd 2018/09/23.15:16:34 K.31
+EN work/flipflopD 1537798983 \
+      FL D:/Users/aldemaro/Documents/proyecto_tesis/neuronas_2col/flipflopD.vhd \
+      PB ieee/std_logic_1164 1200023565 PB ieee/std_logic_arith 1200023566 \
+      PB ieee/STD_LOGIC_UNSIGNED 1200023567
+AR work/flipflopD/Behavioral 1537798984 \
+      FL D:/Users/aldemaro/Documents/proyecto_tesis/neuronas_2col/flipflopD.vhd \
+      EN work/flipflopD 1537798983
+FL D:/Users/aldemaro/Documents/proyecto_tesis/neuronas_2col/flipflopD_CE.vhd 2018/09/22.15:26:02 K.31
+EN work/flipflopD_CE 1537798981 \
+      FL D:/Users/aldemaro/Documents/proyecto_tesis/neuronas_2col/flipflopD_CE.vhd \
+      PB ieee/std_logic_1164 1200023565 PB ieee/std_logic_arith 1200023566 \
+      PB ieee/STD_LOGIC_UNSIGNED 1200023567
+AR work/flipflopD_CE/Behavioral 1537798982 \
+      FL D:/Users/aldemaro/Documents/proyecto_tesis/neuronas_2col/flipflopD_CE.vhd \
+      EN work/flipflopD_CE 1537798981
+FL D:/Users/aldemaro/Documents/proyecto_tesis/neuronas_2col/half_neuronas2.vhd 2018/09/23.15:37:45 K.31
+EN work/half_neuronas2 1537798993 \
+      FL D:/Users/aldemaro/Documents/proyecto_tesis/neuronas_2col/half_neuronas2.vhd \
+      PB ieee/std_logic_1164 1200023565 PB ieee/std_logic_arith 1200023566 \
+      PB ieee/STD_LOGIC_UNSIGNED 1200023567
+AR work/half_neuronas2/Behavioral 1537798994 \
+      FL D:/Users/aldemaro/Documents/proyecto_tesis/neuronas_2col/half_neuronas2.vhd \
+      EN work/half_neuronas2 1537798993 CP bloque1 CP bloque2_2 CP sticky
+FL D:/Users/aldemaro/Documents/proyecto_tesis/neuronas_2col/mux2_2bits.vhd 2018/09/22.23:42:37 K.31
+EN work/mux2_2bits 1537798991 \
+      FL D:/Users/aldemaro/Documents/proyecto_tesis/neuronas_2col/mux2_2bits.vhd \
+      PB ieee/std_logic_1164 1200023565 PB ieee/std_logic_arith 1200023566 \
+      PB ieee/STD_LOGIC_UNSIGNED 1200023567
+AR work/mux2_2bits/Behavioral 1537798992 \
+      FL D:/Users/aldemaro/Documents/proyecto_tesis/neuronas_2col/mux2_2bits.vhd \
+      EN work/mux2_2bits 1537798991
+FL D:/Users/aldemaro/Documents/proyecto_tesis/neuronas_2col/neurona.vhd 2018/09/24.11:22:40 K.31
+EN work/neurona 1537798997 \
+      FL D:/Users/aldemaro/Documents/proyecto_tesis/neuronas_2col/neurona.vhd \
+      PB ieee/std_logic_1164 1200023565 PB ieee/std_logic_arith 1200023566 \
+      PB ieee/STD_LOGIC_UNSIGNED 1200023567
+AR work/neurona/Behavioral 1537798998 \
+      FL D:/Users/aldemaro/Documents/proyecto_tesis/neuronas_2col/neurona.vhd \
+      EN work/neurona 1537798997 CP mux2_2bits CP half_neuronas2 CP registro_16bits
+FL D:/Users/aldemaro/Documents/proyecto_tesis/neuronas_2col/neuronas_2col.vhd 2018/09/24.10:24:09 K.31
+EN work/neuronas_2col 1537798999 \
+      FL D:/Users/aldemaro/Documents/proyecto_tesis/neuronas_2col/neuronas_2col.vhd \
+      PB ieee/std_logic_1164 1200023565 PB ieee/std_logic_arith 1200023566 \
+      PB ieee/STD_LOGIC_UNSIGNED 1200023567
+AR work/neuronas_2col/Behavioral 1537799000 \
+      FL D:/Users/aldemaro/Documents/proyecto_tesis/neuronas_2col/neuronas_2col.vhd \
+      EN work/neuronas_2col 1537798999 CP neurona
+FL D:/Users/aldemaro/Documents/proyecto_tesis/neuronas_2col/registro_16bits.vhd 2018/09/19.19:22:32 K.31
+EN work/registro_16bits 1537798995 \
+      FL D:/Users/aldemaro/Documents/proyecto_tesis/neuronas_2col/registro_16bits.vhd \
+      PB ieee/std_logic_1164 1200023565 PB ieee/std_logic_arith 1200023566 \
+      PB ieee/STD_LOGIC_UNSIGNED 1200023567
+AR work/registro_16bits/Behavioral 1537798996 \
+      FL D:/Users/aldemaro/Documents/proyecto_tesis/neuronas_2col/registro_16bits.vhd \
+      EN work/registro_16bits 1537798995
+FL D:/Users/aldemaro/Documents/proyecto_tesis/neuronas_2col/sticky.vhd 2018/09/22.16:04:57 K.31
+EN work/sticky 1537798989 \
+      FL D:/Users/aldemaro/Documents/proyecto_tesis/neuronas_2col/sticky.vhd \
+      PB ieee/std_logic_1164 1200023565 PB ieee/std_logic_arith 1200023566 \
+      PB ieee/STD_LOGIC_UNSIGNED 1200023567
+AR work/sticky/Behavioral 1537798990 \
+      FL D:/Users/aldemaro/Documents/proyecto_tesis/neuronas_2col/sticky.vhd \
+      EN work/sticky 1537798989 CP flipflopD_CE

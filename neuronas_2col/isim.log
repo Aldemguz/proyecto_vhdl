@@ -1,0 +1,51 @@
+Command line:
+   ./neuronas_2col_tb_isim_beh.exe
+     -intstyle  ise
+     -ipchost  localhost
+     -ipcport  1258
+
+Mon Sep 24 11:24:50 2018
+
+Total Line Count : 98
+
+ Elaboration Time: 0 sec
+
+ Current Memory Usage: 141.664 Meg
+
+ Total Signals          : 165
+ Total Nets             : 163
+ Total Signal Drivers   : 50
+ Total Blocks           : 24
+ Total Primitive Blocks : 10
+ Total Processes        : 45
+ Total Traceable Variables  : 15
+ Total Scalar Nets and Variables : 664
+ntrace select -o on -n /neuronas_2col_tb/x_in 
+ntrace select -o on -n /neuronas_2col_tb/proto_in 
+ntrace select -o on -n /neuronas_2col_tb/clack_in 
+ntrace select -o on -n /neuronas_2col_tb/izq_in 
+ntrace select -o on -n /neuronas_2col_tb/clk 
+ntrace select -o on -n /neuronas_2col_tb/reset_in 
+ntrace select -o on -n /neuronas_2col_tb/uut/n0/clack_in 
+ntrace select -o on -n /neuronas_2col_tb/uut/n0/der_sg 
+ntrace select -o on -n /neuronas_2col_tb/der_out 
+ntrace select -o on -n /neuronas_2col_tb/uut/n0/proto_out 
+ntrace select -o on -n /neuronas_2col_tb/uut/n1/proto_out 
+ntrace select -o on -n /neuronas_2col_tb/proto_out 
+ntrace select -o on -n /neuronas_2col_tb/clack_out 
+ntrace select -o on -n /neuronas_2col_tb/z_out 
+ntrace start 
+isimrun 1000 ns 
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+restart
+isimrun all 
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+
+ Total Simulation Time: 0.09375 sec
+
+ Current Memory Usage: 152.162 Meg
+
+Mon Sep 24 11:28:34 2018
+

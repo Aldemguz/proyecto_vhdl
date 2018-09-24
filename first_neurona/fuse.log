@@ -45,7 +45,7 @@ WARNING:HDLCompiler:746 - "N:/K.31/rtf/vhdl/src/ieee/numeric_std.vhd" Line 868.
    Range is empty (null range)
 Completed static elaboration
 Fuse Memory Usage: 56224 Kb
-Fuse CPU Usage: 812 ms
+Fuse CPU Usage: 889 ms
 Using precompiled package standard from library std
 Using precompiled package std_logic_1164 from library ieee
 Using precompiled package std_logic_arith from library ieee
@@ -65,4 +65,4 @@ Compiling architecture behavior of entity first_neurona_tb
 Compiled 20 VHDL Units
 Built simulation executable first_neurona_tb_isim_beh.exe
 Fuse Memory Usage: 57508 Kb
-Fuse CPU Usage: 890 ms
+Fuse CPU Usage: 936 ms

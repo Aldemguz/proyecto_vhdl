@@ -42,7 +42,11 @@ begin
 	if(reset_in='1') then
 	temp<='0';
 	elsif rising_edge(clk) then
+	if(D='U')then
+	temp<='0';
+	else
 	temp<=D;
+	end if;
 	end if;
 end process;
 Q<=temp;

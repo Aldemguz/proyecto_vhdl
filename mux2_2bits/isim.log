@@ -2,13 +2,13 @@ Command line:
    ./mux2_2bits_tb_isim_beh.exe
      -intstyle  ise
      -ipchost  localhost
-     -ipcport  1260
+     -ipcport  1041
 
-Sat Sep 22 23:45:27 2018
+Sun Sep 23 07:15:40 2018
 
 Total Line Count : 18
 
- Elaboration Time: 0.015625 sec
+ Elaboration Time: 0 sec
 
  Current Memory Usage: 141.66 Meg
 
@@ -20,15 +20,18 @@ Total Line Count : 18
  Total Processes        : 3
  Total Traceable Variables  : 15
  Total Scalar Nets and Variables : 508
-ntrace select -o on -m / -l this 
+ntrace select -o on -n /mux2_2bits_tb/x_in 
+ntrace select -o on -n /mux2_2bits_tb/y_in 
+ntrace select -o on -n /mux2_2bits_tb/sel_in 
+ntrace select -o on -n /mux2_2bits_tb/z_out 
 ntrace start 
 isimrun 1000 ns 
 Simulator is doing circuit initialization process.
 Finished circuit initialization process.
 
- Total Simulation Time: 0.078125 sec
+ Total Simulation Time: 0.046875 sec
 
  Current Memory Usage: 152.146 Meg
 
-Sat Sep 22 23:48:30 2018
+Sun Sep 23 07:16:20 2018
 

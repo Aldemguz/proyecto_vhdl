@@ -29,6 +29,7 @@ use IEEE.STD_LOGIC_UNSIGNED.ALL;
 
 entity bloque1 is
     Port ( enable_in : in  STD_LOGIC;
+		     clack_in : in STD_LOGIC;
            clk : in  STD_LOGIC;
            reset_in : in  STD_LOGIC;
            der_out : out  STD_LOGIC);
@@ -44,7 +45,7 @@ component flipflopD
 end component;
 signal or_sg,q_sg: std_logic:='0';
 begin
-or_sg<= enable_in or q_sg;
+or_sg<= enable_in or q_sg or clack_in;
 ff : flipflopD port map(or_sg,q_sg,clk,reset_in);
 der_out<=q_sg;
 

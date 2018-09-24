@@ -12,11 +12,11 @@ Total CPU time to Xst completion: 0.23 secs
 =========================================================================
 Compiling vhdl file "D:/Users/aldemaro/Documents/proyecto_tesis/neuronas/bloque2_2.vhd" in Library work.
 Entity <bloque2_2> compiled.
-Entity <bloque2_2> (Architecture <Dataflow>) compiled.
+Entity <bloque2_2> (Architecture <dataflow>) compiled.
 
 
-Total REAL time to Xst completion: 1.00 secs
-Total CPU time to Xst completion: 0.30 secs
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.36 secs
  
 --> 
 
